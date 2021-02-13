@@ -9,6 +9,8 @@
 
 # 3. Scope
 
+
+
 # 4. Functional Requirements
 
 # 5. Standards & Laws
@@ -21,6 +23,7 @@
 -   Internet Explorer
 
 ## Online shop regulations
+
 **Definitions:**
 
 
