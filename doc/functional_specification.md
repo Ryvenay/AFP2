@@ -1,5 +1,7 @@
 # 1. Current State 
 
+We've been commissioned by an electrical shop owner, who's selling electronic gadgets, to create a website that he can use in his business, so he can reach more people. Our task is to develop a platform where he can showcase his products and sell them at the same time.
+
 # 2. Scope
 
 The goal of this project is to create a fully functional web shop, where members can buy some musical equipment or something else. Aside from the main function, this page has to have a user management system, which include registering new users, logging them in and out, changing password and profile details.The project contains the ordinary website elements like, registration, login system, shoping cart, laravel and database, etc. We will use for this project laravel framework.
