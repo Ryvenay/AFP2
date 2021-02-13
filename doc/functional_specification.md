@@ -14,6 +14,8 @@ Web application must function and display properly in the following browser vers
 - Microsoft Edge
 - Google Chrome
 - Internet Explorer
+- Safari
+- Other Web Browser
 
 ## Privacy and Cookie Policy
 
