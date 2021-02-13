@@ -23,6 +23,19 @@ Obligation to EU privacy laws, it is our responsibility to inform users about ho
 
 # 5. Requested Business model
 
+* Customers must have an internet connection in order to connect to the website and use it without any disruption.
+* Being a registered user is necessary for online purchases.
+
+* Database connection has to be set and fully functional.
+
+* Users have to use a 16:9 pc monitor for the best experience but other aspect rations can be used too.
+
+* Users have to be logged in in order to reach the profile page
+
+* Admins can add, they can delete or modify the items on the webshop.
+
+* Admins can set discounts to certain Items for limited time.
+
 # 6. Request List
 | Modul | ID | Name | V | Description |
 |--------|---------|-----------|-----------|-------------|
