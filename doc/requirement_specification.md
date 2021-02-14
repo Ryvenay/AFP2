@@ -40,6 +40,12 @@ Application must meet the following general standards:
 
 **Definitions:**
 
+1. The seller - Electrical retail store
+
+2. Customer- An individual who is at least 16 years old, in case he/she is not 18 yet the consent of his/her legal representative is required.
+
+
+
 
 **General provisions:**
 
