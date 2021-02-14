@@ -69,8 +69,8 @@ Web application must function and display properly in the following browser vers
 - Able to finish the order
 
 ## Manager:
-   * Has all the user privileges
-   * Able to add a new product
-   * Can modify an existing product
-   * Able to remove a product
-   * Has access to and able to see all the orders from other users
+- Has all the user privileges
+- Able to add a new product
+- Can modify an existing product
+- Able to remove a product
+- Has access to and able to see all the orders from other users
