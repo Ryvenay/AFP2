@@ -14,6 +14,20 @@ Our company is a small retail store in Eger, Hungary, where we are selling elect
 
 # 5. Standards & Laws
 ## General Standards:
+Application must meet the following general standards:
+
+1.Must be easily understandable and easy to use for the everyday user.
+
+2.Must function in a logical manner for the users who may are not professionals.
+
+3.Must use styles that are consistent throughout the application and within the associated Web site, including:
+
+- Error messages must appear with understandable text.
+- Form controls that are not available must be hidden.
+
+
+
+
 
 ## Browser requirements:
 -   Mozilla Firefox
