@@ -20,6 +20,7 @@ Our company is a small retail store in Eger, Hungary, where we are selling elect
 -   Microsoft Edge
 -   Google Chrome
 -   Internet Explorer
+-   Safari
 
 ## Online shop regulations
 
