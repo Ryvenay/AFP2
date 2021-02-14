@@ -1,6 +1,7 @@
 # 1. Current State 
 
-We've been commissioned by an electrical shop owner, who's selling electronic gadgets, to create a website that he can use in his business, so he can reach more people. Our task is to develop a platform where he can showcase his products and sell them at the same time.
+Our team is a small web developer company that aims to develop modern and quality web platforms for our clients. The team consists of 3 members and two senior supervisor.
+We've been commissioned by the owner of a relatively new electrical store, to create an e-commerce website that he can use in his business, so he can reach more people. The business is selling electrical appliances, like computers, televisions, home appliances etc. As the customer base was growing, it was hard to keep up with the demand, so the company decided to introduce an online webshop to their business. Our task is to develop this platform where they can showcase his products and sell them at the same time.
 
 # 2. Scope
 
