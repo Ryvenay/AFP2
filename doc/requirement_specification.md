@@ -53,6 +53,10 @@ Application must meet the following general standards:
 
 **General provisions:**
 
+1. Online shop is run by the seller.
+
+2. The regulations define the rules for the conclusion between the seller and the customer contracts for the sale of goods by means of distance communication and use by customers of the online store.
+
 
 **The scope of the terms and conditions of use the online shop:**
 
