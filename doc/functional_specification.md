@@ -45,12 +45,19 @@ Web application must function and display properly in the following browser vers
 |Authorization|A3|Log-out|0.1|User can log out from their account|
 |Authorization|A4|Change pw|0.1|User can change their password|
 |Pages|P1|Home page|0.1| Users automatically navigated to the home page|
-|Pages|P2|Categories|0.1|Users can choose what are they searching for (headset or headphone)|
-|Pages|P3|Product page|0.1|Users can view one item's description, value etc.|
-|Pages|P4|Shopping cart|0.1|Contain the items the user has put in the cart|
-|Pages|P5|Order page|0.1|Certain users can delete posts|
+|Pages|P2|Categories|0.1|Users can choose what are they searching for (electrical appliances)|
+|Pages|P3|Product page|0.1|Users can view one item's description, price etc.|
+|Pages|P4|Shopping cart|0.1|Contains the items the user has put in the cart|
+|Pages|P5|Order page|0.1|Users can finish orders, fill information and see order details|
+|Pages|P6|Order listing|0.1|Certain users can see the list of orders made by users|
+|Cart|C1|Add to cart|0.1|Users can add products to their carts|
+|Cart|C2|Remove from cart|0.1|Users can remove products from their cart|
+|Ordering|O1|Make order|0.1|Users can make new orders|
+|Ordering|O2|Complete order|0.1|Admins can mark orders complete|
+|Ordering|O3|Delete order|0.1|Admins can delete orders|
 |Profile & Pages|PRP1|Profile page|0.1|Users can view profiles|
 |Profile|PR1|Edit profile|0.1|User can edit their profile|
+
 # 7. Use-Cases:
 
 ## User:
