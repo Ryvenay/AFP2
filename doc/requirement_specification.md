@@ -1,10 +1,10 @@
 # Requirement Specification
 
 # 1. Introduction
-This document contains the detailed requirement description on the client's behalf, including information regarding the client's current business procedures and general standards that the project needs to meet. The client, an electrical retail store in Eger, Hungary commissioned the 'Impact Zone' development company to produce an e-commerce platform for the client which they are able to adapt onto their business.
+This document contains the detailed requirement description on the client's behalf, including information regarding the client's current business procedures and general standards that the project has to meet. The client, an electrical retail store in Eger, Hungary commissioned the 'Impact Zone' development company to produce an e-commerce platform for the client which they are able to adapt onto their business.
 
 # 2. Current State
-Our company is a small retail store in Eger, Hungary, where we are selling electronic appliances including computers and computer accessories, TVs, home appliances, etc. We've been in existence for more than 3 years only as a local store, near the city center of Eger, where the customers are able to inspect, try and purchase from a wide variety of electronic appliances. Since our beginning, the shop's populatiry grew rapidly, our store expanded in size and as a result, we gained new partners too. Because of the inreased demand over the years, we would like to improve and extend our business and as a part of it, have an online website where we can satisfy our customers who live farther away as well.
+Our company is a small retail store in Eger, Hungary, where we are selling electronic appliances including computers and computer accessories, TVs, home appliances, etc. We've been in existence for more than 3 years only as a local store, near the city center of Eger, where the customers are able to inspect, try and purchase from a wide variety of electronic appliances.  Since our beginning, the shop's populatiry grew rapidly, our store expanded in size and as a result, we gained new partners too. Currently we're only available for customers that can visit our local store in Eger, and some of our customers travel to us from a different city too. Because of the increased demand over the years, we would like to improve and extend our business, and as a part of it, we would like to have an e-commerce website where we can satisfy our partners, and customers who live farther away as well. 
 
 # 3. Scope
 
