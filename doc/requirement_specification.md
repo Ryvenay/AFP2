@@ -48,6 +48,8 @@ Application must meet the following general standards:
 
 4. Goods - Movable items presented in the online shop.
 
+5. Regulations - Rules and laws of the operation of an online shop.
+
 
 **General provisions:**
 
