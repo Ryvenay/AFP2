@@ -79,6 +79,10 @@ Application must meet the following general standards:
 
 3. An order shall be made after logging in to the store. In the absence of the customer registration in the online shop placing an order is not possible.
 
+4. Sending the order by the customer constitutes an offer submitted by the customer to the seller to enter into a contract of sale, in accordance with the regulations.
+
+5. After sending the order the customer receives confirmation of acceptance of his offer by electronic means (confirmation of the order), at the e-mail address indicated by the customer. After receiving above-mentioned acceptance agreement of sale is valid.
+
 
 ## Privacy and Cookie Policy
 
