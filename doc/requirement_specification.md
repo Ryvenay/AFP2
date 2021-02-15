@@ -95,6 +95,8 @@ Obligation to EU privacy laws, it is our responsibility to inform users about ho
 
 Our company is a small retail store in Eger, Hungary, where we are selling electronic appliances including computers and computer accessories, TVs, home appliances, etc. The store is located in the city center and it is easy to reach for the local citizens. But as for people who live far it is not the case. The team thinks we could reach more customers by creating a webshop. Right now, we are able to work very well as a team because we have been created a website and managed it correctly. This time the project aims to extend the functionalities of the client company by providing a fully functional online webshop.
 
+Before the release of the webshop, we will be searching for different electronic appliances and look at their description to classify. For example, there are rare ones which are hard to find in the store.  In the current situation, when the CoVid-19 is spreading and infecting people, we need to stay at home. To protect people from infection,  we will create a webshop, which will be connected directly to the product storage, where the customers can find computers and computer accessories, TVs, home appliances, etc they need, so they don't have to go to the store in person. 
+
 
 
 
