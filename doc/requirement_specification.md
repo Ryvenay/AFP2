@@ -73,6 +73,12 @@ Application must meet the following general standards:
 
 **Placing an order:**
 
+1. Orders for goods available in the online shop are made through the Order Page.
+
+2. Placing an order through Order Page is possible around the clock, every day of the week. Orders placed on weekdays will be implemented on an ongoing basis. Orders placed on Saturdays, Sundays and holidays will be implemented no earlier than the next business day. Users must accept that.
+
+3. An order shall be made after logging in to the store. In the absence of the customer registration in the online shop placing an order is not possible.
+
 
 ## Privacy and Cookie Policy
 
