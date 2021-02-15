@@ -108,6 +108,14 @@ Furthermore, ordering an item online is much more convenient than taking any for
 
 - Database connection has to be set and fully functional.
 
+- Users have to use a 16:9 PC monitor for the best experience but other aspect rations can be used too.
+
+- Users have to be logged in in order to reach their profile page.
+
+- Admins can add, delete or modify the items in the webshop.
+
+- Admins can set discounts to certain electronic appliances for limited time.
+
 
 # 8. Request List
 
