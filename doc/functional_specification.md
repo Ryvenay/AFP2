@@ -72,13 +72,16 @@ Web application must function and display properly in the following browser vers
 ## User:
 - Able to register a new account
 - Able to log in to their account
-- Able to log out to their account
+- Able to log out of their account
 - Able to see the home page
 - Able to see the product listings by category
 - Can filter through the products
 - Can open a product and see it's detailed description page
 - Able to add products to their cart
-- Able to finish the order
+- Able to place the order
+- Can see their profile details
+- Can edit their profile details
+- Can change their password
 
 ## Manager:
 - Has all the user privileges
@@ -86,3 +89,5 @@ Web application must function and display properly in the following browser vers
 - Can modify an existing product
 - Able to remove a product
 - Has access to and able to see all the orders from other users
+- Can remove an order
+- Can mark order as completed
