@@ -65,6 +65,9 @@ Application must meet the following general standards:
 
 **The scope of the terms and conditions of use the online shop:**
 
+1. To use the service provided by the online store, the customer need to recognize these rules and accept them.
+
+2. The provided information in the registration form and Order Page should be truthful and current. If the customer provides incorrect or outdated information, in particular as regards to the personal data of the customer, the seller is not obliged to carry out orders. 
 
 **Placing an order:**
 
