@@ -44,13 +44,15 @@ Application must meet the following general standards:
 
 1. The seller - Electrical retail store
 
-2. Customer- An individual who is at least 16 years old, in case he/she is not 18 yet the consent of his/her legal representative is required.
+2. Customer - An individual who is at least 16 years old, in case he/she is not 18 yet the consent of his/her legal representative is required.
 
-3. Online store / Shop / Webshop -Internet service available at (-not yet clarified-) through which a customer can purchase goods from the seller.
+3. Online store / Shop / Webshop 
+- Internet service available at (-not yet clarified-) through which a customer can purchase goods from the seller.
 
 4. Goods - Movable items presented in the online shop.
 
-5. Regulations - Rules and laws of the operation of an online shop.
+5. Regulations 
+- Rules and laws of the operation of an online shop.
 
 
 **General provisions:**
