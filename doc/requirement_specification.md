@@ -100,9 +100,13 @@ Before the release of the webshop, we will be searching for different electronic
 Furthermore, ordering an item online is much more convenient than taking any form of public transportation to get to the store, not even mentioning the exhaust fumes that cars or any type of public transportation vehicle can release to the atmosphere, and also you don't need to spend hours to get to the store, trying to find the computer you wanted, especially if this day is one of the weekend days, you need to deal with the crowd everywhere in the city, and actually in this time you can't be with your loved ones or you can't just relax at home. These are the main reasons the website shall be created and help to make the customers' lives so much easier.
 
 
-
-
 # 7. Requested Business Model
+
+- Customers must have internet connection in order to connect to the website and use it without any disruption.
+
+- Registration is necessary for users for online purchases.
+
+- Database connection has to be set and fully functional.
 
 
 # 8. Request List
