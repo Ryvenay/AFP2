@@ -10,6 +10,15 @@ The goal of this project is to create a fully functional web shop, where members
 # 3. Standards & Laws
 
 ## General Standards:
+Application must meet the following general standards:
+
+- Must be easily understandable and easy to use for the customers.
+- Must function in a logical manner for the users.
+- Must use the industry best practices.
+- Must use styles that are consistent throughout the application and within the associated Web site, including:
+- Error messages must appear in a consistent location and style.
+- Form controls that are not available must be hidden.
+
 ## Browser requirements:
 Web application must function and display properly in the following browser versions:
 
