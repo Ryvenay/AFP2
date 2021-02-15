@@ -28,9 +28,6 @@ Application must meet the following general standards:
 - Form controls that are not available must be hidden.
 
 
-
-
-
 ## Browser requirements:
 -   Mozilla Firefox
 -   Microsoft Edge
