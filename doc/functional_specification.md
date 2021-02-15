@@ -39,6 +39,7 @@ The client's business is currently existing as a physical retail store in Eger, 
 As a solution, the employer hired more personnel to satisfy customers during peak hours. Obviously this costs money and since the extra staff is only needed during peak hours, it is unnesesary to keep them in the store while there's less traffic there. Furthermore, due to the current state of the coronavirus and the advised stay-at-home policy, more customer chooses to shop online, and since the store not having any online presence they are missing out on potential revenue source. 
 
 This situation is not beneficial for the company nor the customers, and it could be solved with an online webshop, where customers could browse through and find any item they like easily from their home. This webshop will be connected with the storage of this shop, and all the product information will be available on the website for the customer to inspect. 
+Additionally, the website will provide all the functions of ordering, including payment, choosing delivery location, and the company will make sure the product will be sent to your home.
 
 
 # 5. Requested Business model
