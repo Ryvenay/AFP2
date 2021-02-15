@@ -93,6 +93,10 @@ Obligation to EU privacy laws, it is our responsibility to inform users about ho
 
 # 6. Current Business Model
 
+Our company is a small retail store in Eger, Hungary, where we are selling electronic appliances including computers and computer accessories, TVs, home appliances, etc. The store is located in the city center and it is easy to reach for the local citizens. But as for people who live far it is not the case. The team thinks we could reach more customers by creating a webshop. Right now, we are able to work very well as a team because we have been created a website and managed it correctly. This time the project aims to extend the functionalities of the client company by providing a fully functional online webshop.
+
+
+
 
 # 7. Requested Business Model
 
