@@ -19,8 +19,6 @@ Application must meet the following general standards:
 - Error messages must appear in a consistent location and style.
 - Form controls that are not available must be hidden.
 
-
-
 ## Browser requirements:
 Web application must function and display properly in the following browser versions:
 
