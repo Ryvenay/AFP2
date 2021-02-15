@@ -5,7 +5,7 @@ We've been commissioned by the owner of a relatively new electrical store, to cr
 
 # 2. Scope
 
-The goal of this project is to create a fully functional web shop, where members can buy some musical equipment or something else. Aside from the main function, this page has to have a user management system, which include registering new users, logging them in and out, changing password and profile details.The project contains the ordinary website elements like, registration, login system, shoping cart, laravel and database, etc. We will use for this project laravel framework.
+The goal of this project is to create a fully functional webshop, where customers can browse and purchase common electronic appliances. Aside from the main function, this page has to have a user management system, which includes registering new users, logging them in and out, changing password and profile details. The project also contains common website elements like, registration, login system, shoping cart, database, etc. The project main framework will be the Laravel technology and Bootstrap as it's frontend framework. 
 
 # 3. Standards & Laws
 
