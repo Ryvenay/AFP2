@@ -41,6 +41,7 @@ As a solution, the employer hired more personnel to satisfy customers during pea
 This situation is not beneficial for the company nor the customers, and it could be solved with an online webshop, where customers could browse through and find any item they like easily from their home. This webshop will be connected with the storage of this shop, and all the product information will be available on the website for the customer to inspect. 
 Additionally, the website will provide all the functions of ordering, including payment, choosing delivery location, and the company will make sure the product will be sent to your home.
 
+Furthermore, ordering an item online is much more convenient than taking any form of public transportation to get to the store, not even mentioning the exhaust fumes that cars or any type of public transportation vehicle can release to the atmosphere, and also you don't need to spend hours to get to the store, trying to find the device you wanted, especially if this day is one of the weekend days, you need to deal with the crowd everywhere in the city, and actually in this time you can't be with your loved ones or you can't just relax at home. These are the main reasons the website shall be created and help to make the customers' lives so much easier.
 
 # 5. Requested Business model
 
