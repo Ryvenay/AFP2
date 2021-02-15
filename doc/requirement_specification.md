@@ -69,6 +69,8 @@ Application must meet the following general standards:
 
 2. The provided information in the registration form and Order Page should be truthful and current. If the customer provides incorrect or outdated information, in particular as regards to the personal data of the customer, the seller is not obliged to carry out orders. 
 
+3. Seller shall take the necessary technical and organizational measures to prevent acquisition and modification data provided by the customer during registration and when ordering by unauthorized users.
+
 **Placing an order:**
 
 
