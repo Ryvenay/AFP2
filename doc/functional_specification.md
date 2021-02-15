@@ -37,7 +37,12 @@ Web application must function and display properly in the following browser vers
 
 # 4. Current business model
 
+The client's business is currently existing as a physical retail store in Eger, Hungary, where customers can visit and purchase electrical equipment. This process is sufficient enough, however it's far from optimal for the customer and the business. Due to the store only existing in physical form, the customer has to travel to the store, find the product they are looking for, and if needed, ask technical details about the product form an employee. If the shop gets crowded, it might be difficult to handle all the customers' requests. 
+As a solution, the employer hired more personnel to satisfy customers during peak hours. Obviously this costs money and since the extra staff is only needed during peak hours, it is unnesesary to keep them in the store while there's less traffic there. Furthermore, due to the current state of the coronavirus and the advised stay-at-home policy, more customer chooses to shop online, and since the store not having any online presence they are missing out on potential revenue source. 
+
+
 # 5. Requested Business model
+
 
 - Customers must have an internet connection in order to connect to the website and use it without any disruption.
 - Being a registered user is necessary for online purchases.
