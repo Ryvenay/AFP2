@@ -61,6 +61,7 @@ Application must meet the following general standards:
 
 4. Information about the price given in the online store is binding from the moment of receipt of the e-mails. After successful submission of the order, this price will not change.
 
+5. Prerequisite for a successful placing an order, is to provide accurate and real data at registration as well as at the Order Page.
 
 **The scope of the terms and conditions of use the online shop:**
 
