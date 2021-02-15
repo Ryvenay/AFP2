@@ -12,6 +12,8 @@ Our vision is to have an online website, where we can sell our products to our c
 
 # 4. Functional Requirements
 
+You can read more in the "Request list" section about the functional requirements. Our current and requested business models contains some more information about this topic as well.
+
 # 5. Standards & Laws
 ## General Standards:
 Application must meet the following general standards:
