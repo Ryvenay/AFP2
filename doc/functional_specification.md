@@ -43,7 +43,6 @@ As a solution, the employer hired more personnel to satisfy customers during pea
 
 # 5. Requested Business model
 
-
 - Customers must have an internet connection in order to connect to the website and use it without any disruption.
 - Being a registered user is necessary for online purchases.
 - Database connection has to be set and fully functional.
