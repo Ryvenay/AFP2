@@ -73,6 +73,18 @@ Web application requires the use of the following (or higher) technologies:
 
 3. Seller shall take the necessary technical and organizational measures to prevent acquisition and modification data provided by the customer during registration and when ordering by unauthorized users.
 
+**Placing an order:**
+
+1. Orders for goods available in the online shop are made through the Order Page.
+
+2. Placing an order through Order Page is possible around the clock, every day of the week. Orders placed on weekdays will be implemented on an ongoing basis. Orders placed on Saturdays, Sundays and holidays will be implemented no earlier than the next business day. Users must accept that.
+
+3. An order shall be made after logging in to the store. In the absence of the customer registration in the online shop placing an order is not possible.
+
+4. Sending the order by the customer constitutes an offer submitted by the customer to the seller to enter into a contract of sale, in accordance with the regulations.
+
+5. After sending the order the customer receives confirmation of acceptance of his offer by electronic means (confirmation of the order), at the e-mail address indicated by the customer. After receiving above-mentioned acceptance agreement of sale is valid.
+
 ## Privacy and Cookie Policy
 
 **Obligation to EU privacy laws, it is our responsibility to inform users about how we handle their personal data. For this reason we will provide a Privacy Policy and a Cookie Policy for users to read. In the functional specification it will be explained in details.**
