@@ -65,6 +65,14 @@ Web application requires the use of the following (or higher) technologies:
 
 5. Prerequisite for a successful placing an order, is to provide accurate and real data at registration as well as at the Order Page.
 
+**The scope of the terms and conditions of use the online shop:**
+
+1. To use the service provided by the online store, the customer need to recognize these rules and accept them.
+
+2. The provided information in the registration form and Order Page should be truthful and current. If the customer provides incorrect or outdated information, in particular as regards to the personal data of the customer, the seller is not obliged to carry out orders. 
+
+3. Seller shall take the necessary technical and organizational measures to prevent acquisition and modification data provided by the customer during registration and when ordering by unauthorized users.
+
 ## Privacy and Cookie Policy
 
 **Obligation to EU privacy laws, it is our responsibility to inform users about how we handle their personal data. For this reason we will provide a Privacy Policy and a Cookie Policy for users to read. In the functional specification it will be explained in details.**
