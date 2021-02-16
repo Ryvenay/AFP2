@@ -29,10 +29,6 @@ Web application must function and display properly in the following browser vers
 - Safari
 - Other Web Browser
 
-## Privacy and Cookie Policy
-
-**Obligation to EU privacy laws, it is our responsibility to inform users about how we handle their personal data. For this reason we will provide a Privacy Policy and a Cookie Policy for users to read. In the functional specification it will be explained in details.**
-
 ## Development Technology, Programming Language, and Web Server Software
 Web application requires the use of the following (or higher) technologies:
 
@@ -40,6 +36,11 @@ Web application requires the use of the following (or higher) technologies:
 - Apache 2.4.0
 - MySQL 8.0 Recommended IDE:
 - NetBeans IDE 9.0
+
+## Privacy and Cookie Policy
+
+**Obligation to EU privacy laws, it is our responsibility to inform users about how we handle their personal data. For this reason we will provide a Privacy Policy and a Cookie Policy for users to read. In the functional specification it will be explained in details.**
+
 
 # 4. Current business model
 
