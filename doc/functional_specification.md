@@ -53,6 +53,17 @@ Web application requires the use of the following (or higher) technologies:
 5. Regulations 
 - Rules and laws of the operation of an online shop.
 
+**General provisions:**
+
+1. Online shop is run by the seller.
+
+2. The regulations define the rules for the conclusion between the seller and the customer contracts for the sale of goods by means of distance communication and use by customers of the online store.
+
+3. Photos of the goods are placed in the online store for exemplary purposes only.
+
+4. Information about the price given in the online store is binding from the moment of receipt of the e-mails. After successful submission of the order, this price will not change.
+
+5. Prerequisite for a successful placing an order, is to provide accurate and real data at registration as well as at the Order Page.
 
 ## Privacy and Cookie Policy
 
