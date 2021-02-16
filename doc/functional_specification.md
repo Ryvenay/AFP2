@@ -37,6 +37,23 @@ Web application requires the use of the following (or higher) technologies:
 - MySQL 8.0 Recommended IDE:
 - NetBeans IDE 9.0
 
+## Online shop regulations
+
+**Definitions:**
+
+1. The seller - Electrical retail store
+
+2. Customer - An individual who is at least 16 years old, in case he/she is not 18 yet the consent of his/her legal representative is required.
+
+3. Online store / Shop / Webshop 
+- Internet service available at (-not yet clarified-) through which a customer can purchase goods from the seller.
+
+4. Goods - Movable items presented in the online shop.
+
+5. Regulations 
+- Rules and laws of the operation of an online shop.
+
+
 ## Privacy and Cookie Policy
 
 **Obligation to EU privacy laws, it is our responsibility to inform users about how we handle their personal data. For this reason we will provide a Privacy Policy and a Cookie Policy for users to read. In the functional specification it will be explained in details.**
