@@ -33,6 +33,14 @@ Web application must function and display properly in the following browser vers
 
 **Obligation to EU privacy laws, it is our responsibility to inform users about how we handle their personal data. For this reason we will provide a Privacy Policy and a Cookie Policy for users to read. In the functional specification it will be explained in details.**
 
+## Development Technology, Programming Language, and Web Server Software
+Web application requires the use of the following (or higher) technologies:
+
+- PHP 7.2
+- Apache 2.4.0
+- MySQL 8.0 Recommended IDE:
+- NetBeans IDE 9.0
+
 # 4. Current business model
 
 The client's business is currently existing as a physical retail store in Eger, Hungary, where customers can visit and purchase electrical equipment. This process is sufficient enough, however it's far from optimal for the customer and the business. Due to the store only existing in physical form, the customer has to travel to the store, find the product they are looking for, and if needed, ask technical details about the product form an employee. If the shop gets crowded, it might be difficult to handle all the customers' requests. 
