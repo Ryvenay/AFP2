@@ -126,4 +126,6 @@ Furthermore, ordering an item online is much more convenient than taking any for
 | Authorization| A3| Log out| 0.1| User can log out from their account|
 | Authorization| A4| Change password| 0.1| User can change their password|
 | Pages| P1| Home page| 0.1| Users automatically navigated to the home page|
+| Pages| P2| Categories| 0.1| Users can choose what are they searching for (computer, TV ...)|
+| Pages| P3| Product page| 0.1|	Users can view one item's description, value etc.|
 
