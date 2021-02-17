@@ -130,4 +130,6 @@ Furthermore, ordering an item online is much more convenient than taking any for
 | Pages| P3| Product page| 0.1|	Users can view one item's description, value etc.|
 | Pages| P4| Shopping cart| 0.1| Contain the items the user has put in the cart|
 | Pages| P5| Order page| 0.1| Certain users can delete posts|
+| Profile & Pages| PRP1| Profile page| 0.1|	Users can view profiles|
+| Profile| PR1|	Edit profile| 0.1| User can edit their profile|
 
