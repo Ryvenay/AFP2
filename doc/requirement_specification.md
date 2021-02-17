@@ -118,5 +118,9 @@ Furthermore, ordering an item online is much more convenient than taking any for
 
 # 8. Request List
 
-
+| Modul| ID| Name| V | Description|
+| :----| :-| :---| :-| :----------|
+| Database|	D1|	Name | 0.1|	Database, tables, relations|
+| Authorization| A1| Log in | 0.1| User can log in to their account|
+| Authorization| A2| Register| 0.1|	User can register a new account|
 
