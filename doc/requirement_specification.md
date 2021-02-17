@@ -123,4 +123,7 @@ Furthermore, ordering an item online is much more convenient than taking any for
 | Database|	D1|	Name | 0.1|	Database, tables, relations|
 | Authorization| A1| Log in | 0.1| User can log in to their account|
 | Authorization| A2| Register| 0.1|	User can register a new account|
+| Authorization| A3| Log out| 0.1| User can log out from their account|
+| Authorization| A4| Change password| 0.1| User can change their password|
+| Pages| P1| Home page| 0.1| Users automatically navigated to the home page|
 
