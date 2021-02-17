@@ -128,4 +128,6 @@ Furthermore, ordering an item online is much more convenient than taking any for
 | Pages| P1| Home page| 0.1| Users automatically navigated to the home page|
 | Pages| P2| Categories| 0.1| Users can choose what are they searching for (computer, TV ...)|
 | Pages| P3| Product page| 0.1|	Users can view one item's description, value etc.|
+| Pages| P4| Shopping cart| 0.1| Contain the items the user has put in the cart|
+| Pages| P5| Order page| 0.1| Certain users can delete posts|
 
