@@ -15,3 +15,4 @@
 ### Programming language – PHP
 ### Communication – Discord, GitHub, Trello
 ### Data structure store – MySQL
+# 3. Business model
