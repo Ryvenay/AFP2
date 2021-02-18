@@ -26,3 +26,6 @@
 # 7. Architecture plan
 ## 7.1 Backend
 ## 7.2 Frontend
+# 8. Database plan
+## 8.1 Objects
+## 8.2 Helper tables
