@@ -19,3 +19,6 @@
 # 4. Requirements
 ## 4.1 Functional Requirements
 ## 4.2 Non-funtional Requirements
+# 5. Functions
+## 5.1 Participants
+## 5.2 Use cases and scenarios
