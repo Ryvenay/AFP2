@@ -1,3 +1,17 @@
 # 1. Overview 
 ## 1.1 About this document
 ## 1.2 Project Overview:
+# 2. Project plan
+## 2.1 Roles and responsibilities
+### Backend developer:
+### Frontend developer:
+### Database developer:
+## 2.2 Team members
+## 2.3 Project schedule
+## 2.4 Milestones
+## 2.5 Technologies
+### Web framework – Bootstap
+### Web server – Apache
+### Programming language – PHP
+### Communication – Discord, GitHub, Trello
+### Data structure store – MySQL
