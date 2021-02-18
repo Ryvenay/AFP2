@@ -16,3 +16,6 @@
 ### Communication – Discord, GitHub, Trello
 ### Data structure store – MySQL
 # 3. Business model
+# 4. Requirements
+## 4.1 Functional Requirements
+## 4.2 Non-funtional Requirements
