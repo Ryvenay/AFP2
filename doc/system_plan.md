@@ -23,3 +23,6 @@
 ## 5.1 Participants
 ## 5.2 Use cases and scenarios
 # 6. Physical environments
+# 7. Architecture plan
+## 7.1 Backend
+## 7.2 Frontend
