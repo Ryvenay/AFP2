@@ -22,3 +22,4 @@
 # 5. Functions
 ## 5.1 Participants
 ## 5.2 Use cases and scenarios
+# 6. Physical environments
