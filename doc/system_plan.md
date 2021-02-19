@@ -23,6 +23,16 @@ Database developers are responsible for the storage and management of the data w
 - Bozó Tamás Dániel - Supervisor
 
 ## 2.3 Project schedule
+
+- 2021/02/18 Requirement and Functional specification documents
+- 2021/02/25 System Plan
+- 2021/03/04 Development start (Sprint 1)
+- 2021/03/11 Development (Sprint 2)
+- 2021/03/18 Introduce our project with a demo (+ Development Sprint 3)
+- 2021/03/25 Development (Sprint 4), testing
+- 2021/04/01 Development finish(Sprint 5), testing
+- 2021/04/08 Review, project finish
+
 ## 2.4 Milestones
 ## 2.5 Technologies
 ### Web framework – Bootstap
