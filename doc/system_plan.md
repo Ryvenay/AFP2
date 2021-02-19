@@ -42,8 +42,8 @@ Database developers are responsible for the storage and management of the data w
 ### Web framework – Bootstap
 Bootstap will be used to make the dynamic layout of the webshop, so it works smoothly on all resolutions in the browsers.
 
-### Web server – Apache
-An Apache web server will be used to store the database information, in which we will store the database writen in MySQL structure.
+### Web server – Apache - Laravel
+An Apache web server will be used to store the database information, in which we will store the database writen in MySQL structure and Laravel.
 
 ### Programming language – PHP
 We are going to write our code in PHP, since it is the most used programming language for building websites. The PHP version which is going to be used is PHP 7.4 or higher since Laravel needs that environment.
@@ -56,7 +56,7 @@ We are going to write our code in PHP, since it is the most used programming lan
 - Trello is a free web-based Kanban-style list-making application. We can create our task boards with several columns and move the tasks between them. Typically columns include task statuses: To Do, In Progress and Done.
 
 ### Data structure store – Laravel
-The database structure will be written accordig to the Laravel standards.  
+The database structure will be written accordig to the Laravel standards.
 <div align="center">
 <video width="30%" playsinline="" autoplay="" muted="" loop="" >
     <source src="./images/hero.mp4" type="video/mp4">
