@@ -38,11 +38,32 @@ Database developers are responsible for the storage and management of the data w
 * 2021/02/18 Requirement and Functional specification documents have been finished
 
 ## 2.5 Technologies
+
 ### Web framework – Bootstap
+Bootstap will be used to make the dynamic layout of the webshop, so it works smoothly on all resolutions in the browsers.
+
 ### Web server – Apache
+An Apache web server will be used to store the database information, in which we will store the database writen in MySQL structure.
+
 ### Programming language – PHP
+We are going to write our code in PHP, since it is the most used programming language for building websites. The PHP version which is going to be used is PHP 7.4 or higher since Laravel needs that environment.
+
 ### Communication – Discord, GitHub, Trello
-### Data structure store – MySQL
+- Discord is a communication software made for voice chat. Since Discord is free we are gonna use this software, because it is not sure that all of us will be in the same room when our company develops the webshop the client asked for. With this we will be able to communicate in real time with our coding partners, and since it has a normal chat function that follows the written messages, it will be easy to trace back with the problems that are brought up during development.
+
+- GitHub is a free repository where the project will be stored during development. With this we can share and retrivel the versions of our work, and if something is not working we can reroll the changes so we don't have to start from the beginning.
+
+- Trello is a free web-based Kanban-style list-making application. We can create our task boards with several columns and move the tasks between them. Typically columns include task statuses: To Do, In Progress and Done.
+
+### Data structure store – Laravel
+The database structure will be written accordig to the Laravel standards.  
+<div align="center">
+<video width="30%" playsinline="" autoplay="" muted="" loop="" >
+    <source src="./images/hero.mp4" type="video/mp4">
+</video>
+</div>
+Recommended version: Latest Stable
+
 # 3. Business model
 # 4. Requirements
 ## 4.1 Functional Requirements
