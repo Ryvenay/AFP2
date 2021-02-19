@@ -11,7 +11,17 @@ Frontend developers implement the visual elements that users see and interact wi
 
 ### Database developer:
 Database developers are responsible for the storage and management of the data we use in this website. 
+
 ## 2.2 Team members
+
+- Papp Ágnes - Frontend developer
+- Csanádi Balázs Tóbiás - Backend developer, team leader
+- Fügedi Csaba - Database developer
+
+
+- Szabó Patrik - Senior developer, supervisor
+- Bozó Tamás Dániel - Supervisor
+
 ## 2.3 Project schedule
 ## 2.4 Milestones
 ## 2.5 Technologies
