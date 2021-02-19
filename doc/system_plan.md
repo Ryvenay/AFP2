@@ -80,4 +80,23 @@ Recommended version: Latest Stable
 ## 8.2 Helper tables
 # 9. Implementation plan
 # 10. Test plan
+
 ## Test methods  
+  
+* Database Import
+* Database Reach
+* Logout Reach
+* Carousel Test
+* Kategory tree Test (All kategory works properly)
+* Login page Test
+* Order page Test
+* Add Product page Test
+* Login Test
+* Order Test
+* Order List Test
+* Product page Test
+* Add Cart page Test
+* Forgot password Test
+* Main Page Test
+* Register Page Test
+* Registration Test
