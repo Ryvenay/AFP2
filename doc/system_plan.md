@@ -18,7 +18,17 @@ The following resources and documents will be used during the developement:
 
 - The laws and industry standards that this project is subjected
 
+- Regulations
 
+- Terms and conditions
+
+- Cookies
+
+- Logging
+
+- Privacy policies like: advertising policies and third party privacy policies
+
+- CCPA and GDPR data protection rights
 
 # 2. Project plan
 ## 2.1 Roles and responsibilities
