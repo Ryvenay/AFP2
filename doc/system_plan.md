@@ -30,6 +30,20 @@ The following resources and documents will be used during the developement:
 
 - CCPA and GDPR data protection rights
 
+Some additional information:
+
+- We are responsible for a website, that introduces computers with their accessories, TV-s, remote controls etc.
+
+- Develop a platform where users can choose from plenty of goods.
+
+- Compare items.
+
+- Get a long description about the chosen electric appliance.
+
+- Look for products in the best price/value .
+
+- Provide a comfortable shopping experience.
+
 # 2. Project plan
 ## 2.1 Roles and responsibilities
 ### Backend developer:
