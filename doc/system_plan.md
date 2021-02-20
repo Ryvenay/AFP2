@@ -109,7 +109,19 @@ Recommended version: Latest Stable
 
 # 3. Business model
 # 4. Requirements
+
 ## 4.1 Functional Requirements
+
+Using common website elements and user management system:
+
+- Register: The users should have the opportunity to sign up. This way they are able to shop and use the shopping cart. After registration they will have an own Profile Page.
+
+- Logging in and out: Editors and users should be able to log in and out.
+
+- Possibility to change password: Users' passwords should be changeable.
+
+- Profile details: Users should be able to see and modify the details on their Profile Page.
+
 ## 4.2 Non-funtional Requirements
 
 # 5. Functions
