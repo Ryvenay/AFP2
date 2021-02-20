@@ -150,6 +150,16 @@ The site must (be):
 
 - Fit the EU Privacy Policy requirements
 
+Supported browsers:
+
+- Mozilla Firefox
+
+- Microsoft Edge
+
+- Google Chrome
+
+- Safari
+
 # 5. Functions
 
 ## 5.1 Participants
