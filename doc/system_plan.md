@@ -111,8 +111,17 @@ Recommended version: Latest Stable
 # 4. Requirements
 ## 4.1 Functional Requirements
 ## 4.2 Non-funtional Requirements
+
 # 5. Functions
+
 ## 5.1 Participants
+
+This website has two user level:
+
+- Customer
+
+- Manager
+
 ## 5.2 Use cases and scenarios
 # 6. Physical environments
 # 7. Architecture plan
