@@ -132,6 +132,17 @@ Customer:
 
 - Able to log out from their account
 
+- Able to see the home page
+
+- Able to see the product lists according to the category
+
+- Can filter through the products
+
+- Can open a product and see it's detailed description page
+
+- Able to add products to their cart
+
+- Able to pass an order
 
 # 6. Physical environments
 # 7. Architecture plan
