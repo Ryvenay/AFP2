@@ -144,6 +144,18 @@ Customer:
 
 - Able to pass an order
 
+Manager:
+
+- Has all the user privileges
+
+- Able to add a new product to all of the categories
+
+- Can modify an existing product
+
+- Able to remove a product
+
+- Able to see all the orders from the users
+
 # 6. Physical environments
 # 7. Architecture plan
 ## 7.1 Backend
