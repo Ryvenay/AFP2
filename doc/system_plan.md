@@ -1,4 +1,7 @@
 # 1. Overview 
+
+Our team accepted a commission to make a fully functional website for people who are interested in computers and other kind of electric appliances. In this online webshop they can purchase the items they need to fix their gadgets or just to practice their hobbies. This document describes the project in detail, including the website's functionality, the team members, their roles and responsibilities, technologies we use in this project, development plans etc.
+
 ## 1.1 About this document
 ## 1.2 Project Overview:
 # 2. Project plan
