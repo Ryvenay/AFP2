@@ -122,6 +122,16 @@ Using common website elements and user management system:
 
 - Profile details: Users should be able to see and modify the details on their Profile Page.
 
+Webshop functions:
+
+- Showing cards: Users can easily separate the items and their descriptions if we show them as cards.
+
+- Listing items, browsing: The customer should be able to look around between the products and filter them on the website.
+
+- Shopping cart: The customer should be able to add products to their cart or remove them if necessary.
+
+- Product details: The customer should be able to see our products' details in a separate page.
+
 ## 4.2 Non-funtional Requirements
 
 # 5. Functions
