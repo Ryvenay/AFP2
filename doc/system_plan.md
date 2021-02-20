@@ -14,6 +14,12 @@ The following resources and documents will be used during the developement:
 
 - The features requested by the clients
 
+- The database structure and plan
+
+- The laws and industry standards that this project is subjected
+
+
+
 # 2. Project plan
 ## 2.1 Roles and responsibilities
 ### Backend developer:
