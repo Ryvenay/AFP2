@@ -123,6 +123,16 @@ This website has two user level:
 - Manager
 
 ## 5.2 Use cases and scenarios
+
+Customer:
+
+- Able to register a new account
+
+- Able to log in to their account
+
+- Able to log out from their account
+
+
 # 6. Physical environments
 # 7. Architecture plan
 ## 7.1 Backend
