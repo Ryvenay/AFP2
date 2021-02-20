@@ -134,6 +134,22 @@ Webshop functions:
 
 ## 4.2 Non-funtional Requirements
 
+The site must (be):
+
+- Easy to use
+
+- User-friendly
+
+- Able to navigate to the corresponding pages
+
+- Show error messages in different and consistent location and style
+
+- Have control panels, buttons (some of them are hidden from the general users)
+
+- Have permission system
+
+- Fit the EU Privacy Policy requirements
+
 # 5. Functions
 
 ## 5.1 Participants
