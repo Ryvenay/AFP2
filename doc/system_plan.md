@@ -160,6 +160,13 @@ Supported browsers:
 
 - Safari
 
+## 4.3 Resources
+
+- Fully functional database with tables and relations
+
+- Secured connection
+
+
 # 5. Functions
 
 ## 5.1 Participants
