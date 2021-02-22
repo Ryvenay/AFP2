@@ -166,6 +166,11 @@ Supported browsers:
 
 - Secured connection
 
+- Intuitive/easy to use interface
+
+- Creative front-end palette
+
+- Based on Laravel and PHP
 
 # 5. Functions
 
