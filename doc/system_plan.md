@@ -101,9 +101,7 @@ We are going to write our code in PHP, since it is the most used programming lan
 ### Data structure store – Laravel
 The database structure will be written accordig to the Laravel standards.
 <div align="center">
-<video width="30%" playsinline="" autoplay="" muted="" loop="" >
-    <source src="https://github.com/Ryvenay/AFP2/blob/master/doc/images/hero.mp4" type="video/mp4">
-</video>
+![LaravelHero](https://github.com/Ryvenay/AFP2/blob/master/doc/images/hero.gif)
 </div>
 Recommended version: Latest Stable
 
