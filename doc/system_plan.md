@@ -108,6 +108,7 @@ The database structure will be written accordig to the Laravel standards.
 Recommended version: Latest Stable
 
 # 3. Business model
+![Bus Model](https://github.com/Ryvenay/AFP2/blob/master/doc/images/Business%20Model_v1.0.png)
 # 4. Requirements
 
 ## 4.1 Functional Requirements
@@ -216,6 +217,8 @@ Manager:
 
 - Able to see all the orders from the users
 
+- Able to mod
+
 # 6. Physical environments
 # 7. Architecture plan
 ## 7.1 Backend
@@ -227,7 +230,7 @@ Manager:
 # 10. Test plan
 
 ## Test methods
-(Later it will be change a lot)
+(Later it will change a lot)
 
 * Database Import
 * Database Reach
