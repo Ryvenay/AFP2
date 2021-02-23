@@ -205,6 +205,8 @@ Customer:
 
 - Able to pass an order
 
+- Able to see thir profile
+
 Manager:
 
 - Has all the user privileges
@@ -217,7 +219,7 @@ Manager:
 
 - Able to see all the orders from the users
 
-- Able to mod
+- Able to mark an order complete
 
 # 6. Physical environments
 This application was made for web platform and should be used with the supported web browsers.
