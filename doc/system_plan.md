@@ -273,6 +273,15 @@ Users are registered accounts on the website. Their data that are needed for pur
 - **Level:** Permission level of the user. More levels can be added later.
 	- 0 = User
 	- 1 = Manager
+	
+### Products
+Products are headphones and other accessories that are being sold in the website.
+- **id:** An unique identification number, that is automatically incremented.
+- **name:** The name of the product.
+- **brand:** The brand of the product.
+- **in_stock:** Numeric value that shows how many are available to order from that product
+- **img:** A path that shows the location of and image of the product
+- **category:** The main category of the product. 
 
 ## 8.2 Helper tables
 
