@@ -230,6 +230,14 @@ This application was made for web platform and should be used with the supported
 - Discord
 - Markdown Monster
 - Stackedit.io
+
+
+**Hardware and Network:**
+- General hardware and network requirements
+
+**Development tools:**
+- Visual Studio Code
+- Sublime Text Editor
 # 7. Architecture plan
 ## 7.1 Backend
 ## 7.2 Frontend
