@@ -283,6 +283,18 @@ Products are headphones and other accessories that are being sold in the website
 - **img:** A path that shows the location of and image of the product
 - **category:** The main category of the product. 
 
+### Address
+Users certain addresses are stored in this table, which enables ordering without registration.
+Both shipping and billing address is stored here.
+- **id:** Unique number used for identification
+- **country:** The country of the address.
+- **post_code:** Different countries have different postal code format, so this field is not validated.
+- **city:** The city of the address. 
+- **street:** The street name.
+- **house:** House number with all necessary other information (floor, door, building, etc.)
+- **note:** Additional information about the shipping or the order.
+
+
 ## 8.2 Helper tables
 
 For some table connections additional "helper" tables are required.
