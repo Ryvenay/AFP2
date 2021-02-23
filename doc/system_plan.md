@@ -257,6 +257,7 @@ The frontednd uses CSS, HTML and JavaScript codes and using Bootstrap as its fra
 ## 8.1 Objects
 ## 8.2 Helper tables
 # 9. Implementation plan
+During the implementation we will work mainly with php, html and css codes. First steps are the database implementation with all the tables, and after that we can work on the website itself. For all the pages, the backend will be implemented first, since this website uses the database heavily and most of the website content stored there. After the backend, the frontend will be implemented using the backend data. The frontend uses bootstrap framework with the grid layout system.
 # 10. Test plan
 
 ## Test methods
