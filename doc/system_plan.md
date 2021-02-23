@@ -256,8 +256,33 @@ The system needs a database system, in this case the team uses a Visual Studio b
 ## 7.2 Frontend
 The frontednd uses CSS, HTML and JavaScript codes and using Bootstrap as its framework, which helps to create a modern looking website and works well cross-platform.
 # 8. Database plan
-## 8.1 Objects
+
+## 8.1 Tables
+
+
 ## 8.2 Helper tables
+
+For some table connections additional "helper" tables are required.
+
+### cart
+
+There's a cart for each user and it contains the products the customer would like to order.
+
+* user_id: The id of the user
+* product_id: The id of the product
+* amount: The amount of the product the customer would like to order.
+
+### package
+
+This contains the items of each order.
+
+* product_id: The identification number of the product that has been ordered
+* order id: The identification number of the order this package belongs to
+* amount: Amount of the item that the package has
+
+## 8.3 Laravel Implementation
+
+
 # 9. Implementation plan
 During the implementation we will work mainly with php, html and css codes. First steps are the database implementation with all the tables, and after that we can work on the website itself. For all the pages, the backend will be implemented first, since this website uses the database heavily and most of the website content stored there. After the backend, the frontend will be implemented using the backend data. The frontend uses bootstrap framework with the grid layout system.
 # 10. Test plan
