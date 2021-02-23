@@ -102,7 +102,7 @@ We are going to write our code in PHP, since it is the most used programming lan
 The database structure will be written accordig to the Laravel standards.
 <div align="center">
 <video width="30%" playsinline="" autoplay="" muted="" loop="" >
-    <source src="./images/hero.mp4" type="video/mp4">
+    <source src="https://github.com/Ryvenay/AFP2/blob/master/doc/images/hero.mp4" type="video/mp4">
 </video>
 </div>
 Recommended version: Latest Stable
@@ -281,7 +281,7 @@ This contains the items of each order.
 * amount: Amount of the item that the package has
 
 ## 8.3 Laravel Implementation
-
+![DBPlanmdoell](https://raw.githubusercontent.com/Ryvenay/AFP2/master/doc/images/DatabasePlan_v1.0.png)
 
 # 9. Implementation plan
 During the implementation we will work mainly with php, html and css codes. First steps are the database implementation with all the tables, and after that we can work on the website itself. For all the pages, the backend will be implemented first, since this website uses the database heavily and most of the website content stored there. After the backend, the frontend will be implemented using the backend data. The frontend uses bootstrap framework with the grid layout system.
