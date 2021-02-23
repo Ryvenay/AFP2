@@ -100,9 +100,9 @@ We are going to write our code in PHP, since it is the most used programming lan
 
 ### Data structure store – Laravel
 The database structure will be written accordig to the Laravel standards.
-<div align="center">
+
 ![LaravelHero](https://github.com/Ryvenay/AFP2/blob/master/doc/images/hero.gif)
-</div>
+
 Recommended version: Latest Stable
 
 # 3. Business model
@@ -257,6 +257,22 @@ The frontednd uses CSS, HTML and JavaScript codes and using Bootstrap as its fra
 
 ## 8.1 Tables
 
+### Users
+
+Users are registered accounts on the website. Their data that are needed for purchase is stored on our database.
+- **id:** A unique identification number that is assigned at registration to every user. 
+- **username:** A unique name the user chooses for their account name, it is required for user to log in to their account
+- **password:** A one way hashed password that is needed to log in to an account.
+- **first_name:** First name of the user as filled in the registration form
+- **last_name:** Last name of the user as filled in the registration form
+- **email:** Email address of the user. It's used for sending order and account information.
+- **birthdate:** Date of birth of the user. 
+- **billing_address:** Default billing address for this user (if any).
+- **Shipping address**: Default shipping address for this user (if any). If this is empty, but the Billing address is filled use that as shipping address.
+- **Regdate:** Date of registration. Filled out automatically.
+- **Level:** Permission level of the user. More levels can be added later.
+	- 0 = User
+	- 1 = Manager
 
 ## 8.2 Helper tables
 
