@@ -295,6 +295,17 @@ Both shipping and billing address is stored here.
 - **note:** Additional information about the shipping or the order.
 
 
+### Order
+Customers orders will be stored here with all the necessary information for shipping.
+It does not contain the items the customer ordered. The Items will be stored in a separate helper table.
+- **id:** Unique identification number for each order
+- **user_id:** The identification number of the user who made the order
+- **billing_address:** The identification number of the billing address that are stored in the address table
+- **shipping address:** The identification number of the shipping address that are stored in the address table
+- **status:** Marks the order to completed.
+- **order_time:** The date and time of the order.
+
+
 ## 8.2 Helper tables
 
 For some table connections additional "helper" tables are required.
