@@ -220,6 +220,16 @@ Manager:
 - Able to mod
 
 # 6. Physical environments
+This application was made for web platform and should be used with the supported web browsers.
+
+**Software and external systems we're working with:**
+- Sublime Text Editor (for PHP)
+- Gitkraken/Github for documentation
+- Trello
+- Visual Studio Code
+- Discord
+- Markdown Monster
+- Stackedit.io
 # 7. Architecture plan
 ## 7.1 Backend
 ## 7.2 Frontend
