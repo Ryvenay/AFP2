@@ -27,7 +27,7 @@ Web application must function and display properly in the following browser vers
 - Google Chrome
 - Internet Explorer
 - Safari
-- Other Web Browser
+- Opera
 
 ## Development Technology, Programming Language, and Web Server Software
 Web application requires the use of the following (or higher) technologies:
