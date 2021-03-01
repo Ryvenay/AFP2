@@ -14,8 +14,12 @@ class CreatePackagesTable extends Migration
     public function up()
     {
         Schema::create('packages', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id('id');
+            $table->integer('product_id');
+            $table->integer('order_id');
+            $table->integer('amount');
+            $table->foreign('product_id')->references('id')->on('products');
+            $table->foreign('order_id')->references('id')->on('orders');
         });
     }
 
