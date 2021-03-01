@@ -14,8 +14,19 @@ class CreateUsersTable extends Migration
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id('id');
+            $table->string('username');
+            $table->string('password');
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->string('email');
+            $table->date('birthdate');
+            $table->integer('billing_address');
+            $table->integer('shipping_address');
+            $table->timestamp('regdate');
+            $table->tinyinteger('level');
+            $table->foreign('shipping_address')->references('id')->on('address');
+            $table->foreign('billing_address')->references('id')->on('address');
         });
     }
 
