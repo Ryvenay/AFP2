@@ -14,8 +14,15 @@ class CreateOrdersTable extends Migration
     public function up()
     {
         Schema::create('orders', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id('id');
+            $table->integer('user_id');
+            $table->integer('billing_address');
+            $table->integer('shipping_address');
+            $table->tinyinteger('status');
+            $table->timestamp('order_time');
+            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('shipping_address')->references('id')->on('address');
+            $table->foreign('billing_address')->references('id')->on('address');
         });
     }
 
