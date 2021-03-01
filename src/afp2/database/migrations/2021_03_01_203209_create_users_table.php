@@ -25,8 +25,8 @@ class CreateUsersTable extends Migration
             $table->integer('shipping_address');
             $table->timestamp('regdate');
             $table->tinyinteger('level');
-            $table->foreign('shipping_address')->references('id')->on('address');
-            $table->foreign('billing_address')->references('id')->on('address');
+            $table->foreign('users_shipping_address')->references('id')->on('address');
+            $table->foreign('users_billing_address')->references('id')->on('address');
         });
     }
 
