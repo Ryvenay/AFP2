@@ -21,12 +21,12 @@ class CreateUsersTable extends Migration
             $table->string('last_name');
             $table->string('email');
             $table->date('birthdate');
-            $table->integer('billing_address');
-            $table->integer('shipping_address');
+            $table->unsignedBigInteger('billing_address');
+            $table->unsignedBigInteger('shipping_address');
             $table->timestamp('regdate');
             $table->tinyinteger('level');
-            $table->foreign('users_shipping_address')->references('id')->on('address');
-            $table->foreign('users_billing_address')->references('id')->on('address');
+            $table->foreign('shipping_address')->references('id')->on('address');
+            $table->foreign('billing_address')->references('id')->on('address');
         });
     }
 
