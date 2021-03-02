@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\users;
 
-class ProductsController extends Controller
+class UserController extends Controller
 {
     //
 }
