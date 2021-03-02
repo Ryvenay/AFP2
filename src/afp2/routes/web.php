@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/laravel', function () {
     return view('welcome');
 });
 
-Route::get('/footer', function () {
-    return view('footer');
+Route::get('/', function () {
+    return view('home');
 });
