@@ -8,7 +8,7 @@ class ProductController extends Controller
 {
     public function index()
     {
-        return 'asd';
+        return view('producs.list');
     }
 
     public function show($id) {
