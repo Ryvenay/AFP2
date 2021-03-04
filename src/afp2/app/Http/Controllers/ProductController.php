@@ -15,7 +15,6 @@ class ProductController extends Controller
         return $id;
     }
 
-    public function 
 
 
 }
