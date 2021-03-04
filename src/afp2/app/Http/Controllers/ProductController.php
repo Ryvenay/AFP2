@@ -6,5 +6,16 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    //
+    public function index()
+    {
+        return 'asd';
+    }
+
+    public function show($id) {
+        return $id;
+    }
+
+    public function 
+
+
 }
