@@ -36,5 +36,10 @@ class ProductController extends Controller
         ]);
     }
 
+    public function delete($id) {
+        $success = Product::where('id' $id);
+        return $success;
+    }
+
 
 }
