@@ -27,7 +27,14 @@ class ProductController extends Controller
     public function create() {
         return view ('products.create');
     }
-    
+
+    public function edit($id) {
+        $pruduct = Product::findOrFail($id);
+
+        return view('products.edit', [
+            'product' => $product
+        ]);
+    }
 
 
 }
