@@ -28,9 +28,20 @@ class ProductController extends Controller
         return view ('products.create');
     }
 
-    public function edit($id) {
-        $pruduct = Product::findOrFail($id);
+    public function store() {
+        Article::create(request()->validate([
+            'name' => 'required',
+            'brand' => 'required',
+            'category' => 'required',
+            'quantity' => 'required',
+            'price' => 'required',
+            'picture' => 'required',
+            'excerpt' => 'required',
+            'description' => 'required'
+        ]));
 
+        return redirect('/articles');
+    }
         return view('products.edit', [
             'product' => $product
         ]);
