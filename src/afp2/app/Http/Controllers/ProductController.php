@@ -45,10 +45,24 @@ class ProductController extends Controller
 
     public function edit(Product $product) {
 
-
         return view('products.edit', [
             'product' => $product
         ]);
+    }
+
+    public function update(Product $product) {
+        Product::update(request()->validate([
+            'name' => 'required',
+            'brand' => 'required',
+            'category' => 'required',
+            'quantity' => 'required',
+            'price' => 'required',
+            'picture' => 'required',
+            'excerpt' => 'required',
+            'description' => 'required'
+        ]));
+
+        return redirect('/articles'.$product->id);
     }
 
     public function delete($id) {
