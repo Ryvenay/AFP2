@@ -29,7 +29,7 @@ class ProductController extends Controller
     }
 
     public function store() {
-        Article::create(request()->validate([
+        Product::create(request()->validate([
             'name' => 'required',
             'brand' => 'required',
             'category' => 'required',
