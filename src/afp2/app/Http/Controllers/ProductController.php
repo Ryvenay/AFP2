@@ -42,6 +42,10 @@ class ProductController extends Controller
 
         return redirect('/articles');
     }
+
+    public function edit(Product $product) {
+
+
         return view('products.edit', [
             'product' => $product
         ]);
