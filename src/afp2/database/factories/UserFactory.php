@@ -16,6 +16,28 @@ class UserFactory extends Factory
      */
     protected $model = User::class;
 
+ /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'name',
+        'email',
+        'password',
+    ];
+
+    /**
+     * The attributes that should be hidden for arrays.
+     *
+     * @var array
+     */
+    protected $hidden = [
+        'password',
+        'remember_token',
+    ];
+
+
     /**
      * Define the model's default state.
      *
@@ -23,7 +45,7 @@ class UserFactory extends Factory
      */
     public function definition()
     {
-        $temp = Address::factory();
+        $temp = Address::factory()->count(1)->create()->pluck('id');
 
         return [
             'username' => $this->faker->userName,
@@ -32,8 +54,8 @@ class UserFactory extends Factory
             'last_name' => $this->faker->lastName,
             'email' => $this->faker->unique()->safeEmail,
             'birthdate' => $this->faker->date($format = 'Y-m-d', $max = 'now'),
-            'billing_address' => $temp,
-            'shipping_address' => $temp,
+            'billing_address' => $temp[0],
+            'shipping_address' => $temp[0],
             'regdate' => null,
             'level' => 1,
         

@@ -22,7 +22,7 @@ class AddressFactory extends Factory
     public function definition()
     {
         return [
-            'id' => null,
+            //'id' => null,
             'country' => $this->faker->country,
             'post_code' => $this->faker->postcode,
             'city' => $this->faker->city,
