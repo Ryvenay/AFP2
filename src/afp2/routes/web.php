@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,3 +36,4 @@ Route::get('/register', [UserController::class, 'register']);
 Route::post('/user/successfulRegistration', [UserController::class, 'store']);
 Route::get('/login', [UserController::class, 'login']);
 Route::post('/', [UserController::class, 'authenticate']);
+Route::get('/logout', [UserController::class, 'logout']);
