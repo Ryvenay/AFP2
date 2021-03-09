@@ -45,7 +45,7 @@ class UserFactory extends Factory
      */
     public function definition()
     {
-        $temp = Address::factory()->count(1)->create()->pluck('id');
+        $temp = Address::factory()->create()->id;
 
         return [
             'username' => $this->faker->userName,
@@ -54,8 +54,8 @@ class UserFactory extends Factory
             'last_name' => $this->faker->lastName,
             'email' => $this->faker->unique()->safeEmail,
             'birthdate' => $this->faker->date($format = 'Y-m-d', $max = 'now'),
-            'billing_address' => $temp[0],
-            'shipping_address' => $temp[0],
+            'billing_address' => $temp,
+            'shipping_address' => $temp,
             'regdate' => null,
             'level' => 1,
         
