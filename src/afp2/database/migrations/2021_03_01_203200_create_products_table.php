@@ -20,6 +20,8 @@ class CreateProductsTable extends Migration
             $table->integer('in_stock');
             $table->string('img');
             $table->string('category');
+            $table->timestamp('updated_at')->nullable();
+            $table->timestamp('created_at')->nullable();
         });
     }
 
