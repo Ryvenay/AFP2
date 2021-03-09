@@ -8,9 +8,10 @@ use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
-   public function authenticate(Request $request) {
-        $credentials = $request->only('email', 'password');
+    public function authenticate(Request $request) {
 
+        $credentials = $request->only('email', 'password');
+        
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
 
@@ -20,5 +21,8 @@ class UserController extends Controller
         return back()->withErrors([
             'email' => 'The provided credentials do not match our records.',
         ]);
-   }
-}
+    }
+
+    public function register() {
+        return view('users.register');
+    }
