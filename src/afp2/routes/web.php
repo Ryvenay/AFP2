@@ -30,3 +30,8 @@ Route::get('/products/{product}', [ProductController::class, 'show']);
 Route::put('/products/{product}', [ProductController::class, 'update']);
 Route::delete('/products/{product}', [ProductController::class, 'delete']);
 
+Route::get('/user', [UserController::class, 'index']);
+Route::get('/register', [UserController::class, 'register']);
+Route::post('/user/successfulRegistration', [UserController::class, 'store']);
+Route::get('/login', [UserController::class, 'login']);
+Route::post('/', [UserController::class, 'authenticate']);
