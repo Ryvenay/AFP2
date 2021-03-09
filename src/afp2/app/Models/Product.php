@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
     use HasFactory;
+
+    public function PackageObj()
+    {
+        return $this->hasMany(Package::class,'product_id','id');
+    }
 }
