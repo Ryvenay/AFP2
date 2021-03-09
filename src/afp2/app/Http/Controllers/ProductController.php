@@ -50,7 +50,7 @@ class ProductController extends Controller
     }
 
     public function update(Product $product) {
-        Product::update(request()->validate([
+        Product::update($request->validate([
             'name' => ['required', 'max:25'],
             'brand' => ['required', 'max:25'],
             'category' => 'required',
