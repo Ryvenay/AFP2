@@ -25,6 +25,7 @@ class CreateUsersTable extends Migration
             $table->unsignedBigInteger('shipping_address');
             $table->timestamp('regdate');
             $table->tinyinteger('level');
+            $table->string('remember_token',100)->nullable();
             $table->timestamp('updated_at')->nullable();
             $table->timestamp('created_at')->nullable();
 
