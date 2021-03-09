@@ -18,8 +18,17 @@ class CreatePackagesTable extends Migration
             $table->unsignedBigInteger('product_id');
             $table->unsignedBigInteger('order_id');
             $table->integer('amount');
-            $table->foreign('product_id')->references('id')->on('products');
-            $table->foreign('order_id')->references('id')->on('orders');
+            $table->timestamp('updated_at')->nullable();
+            $table->timestamp('created_at')->nullable();
+
+            $table->foreign('product_id')
+                ->references('id')
+                ->on('products')
+                ->onDelete('cascade');
+            $table->foreign('order_id')
+                ->references('id')
+                ->on('orders')
+                ->onDelete('cascade');
         });
     }
 
