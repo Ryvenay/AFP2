@@ -44,7 +44,7 @@
   <img src="img/product/hp_printer.jpg" class="card-img-top" width="200" height="270" alt="...">
   <div class="card-body">
     <h5 class="card-title">HP LaserJet Pro printer</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Print, copy, scan, fax, dual band wireless. Simple set-up, 35-page automatic feeder and worry-free wireless.</p>
     <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
