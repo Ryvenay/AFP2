@@ -8,7 +8,7 @@
   <div class="card-body">
     <h5 class="card-title">Philips remote control</h5>
     <p class="card-text">Brand new remote control for Philips TV-s. No programming required. Silicone rubber button. 30 Days Money Back Guarantee.1 Year Full Warranty</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
 </div>
@@ -18,7 +18,7 @@
   <div class="card-body">
     <h5 class="card-title">Dell Latitude E5450 laptop</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
 </div>
@@ -28,7 +28,7 @@
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
 </div>
@@ -37,7 +37,7 @@
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
@@ -45,7 +45,7 @@
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
@@ -53,7 +53,7 @@
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
@@ -61,7 +61,7 @@
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
@@ -69,7 +69,7 @@
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
@@ -77,7 +77,7 @@
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
@@ -85,7 +85,7 @@
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
@@ -93,7 +93,7 @@
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
 </div>
