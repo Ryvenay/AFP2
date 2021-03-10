@@ -20,9 +20,23 @@ class CreateOrdersTable extends Migration
             $table->unsignedBigInteger('shipping_address');
             $table->tinyinteger('status');
             $table->timestamp('order_time');
-            $table->foreign('user_id')->references('id')->on('users');
-            $table->foreign('shipping_address')->references('id')->on('address');
-            $table->foreign('billing_address')->references('id')->on('address');
+            $table->timestamp('updated_at')->nullable();
+            $table->timestamp('created_at')->nullable();
+
+            $table->foreign('user_id')
+                ->references('id')
+                ->on('users')
+                ->onDelete('cascade');
+
+            $table->foreign('shipping_address')
+                ->references('id')
+                ->on('addresses')
+                ->onDelete('cascade');
+
+            $table->foreign('billing_address')
+                ->references('id')
+                ->on('addresses')
+                ->onDelete('cascade');
         });
     }
 

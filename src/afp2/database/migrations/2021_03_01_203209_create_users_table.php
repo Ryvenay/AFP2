@@ -25,8 +25,19 @@ class CreateUsersTable extends Migration
             $table->unsignedBigInteger('shipping_address');
             $table->timestamp('regdate');
             $table->tinyinteger('level');
-            $table->foreign('shipping_address')->references('id')->on('address');
-            $table->foreign('billing_address')->references('id')->on('address');
+            $table->string('remember_token',100)->nullable();
+            $table->timestamp('updated_at')->nullable();
+            $table->timestamp('created_at')->nullable();
+
+            $table->foreign('shipping_address')
+                ->references('id')
+                ->on('addresses')
+                ->onDelete('cascade');
+
+            $table->foreign('billing_address')
+                ->references('id')
+                ->on('addresses')
+                ->onDelete('cascade');
         });
     }
 
