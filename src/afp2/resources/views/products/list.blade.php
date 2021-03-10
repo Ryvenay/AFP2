@@ -27,7 +27,7 @@
   <img src="img/product/sony_TV.jpg" class="card-img-top" width="200" height="250" alt="...">
   <div class="card-body">
     <h5 class="card-title">Sony Smart LED TV</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Cognitive Processor XR™ understands how humans see and hear for true immersion.Multi-position stand for versatile TV placement.</p>
     <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
