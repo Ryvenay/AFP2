@@ -24,9 +24,9 @@
 </div>
 <div class="col-md-4">
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="img/product/sony_TV.jpg" class="card-img-top" width="200" height="250" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">Sony Smart LED TV</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
