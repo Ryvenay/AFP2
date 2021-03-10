@@ -67,7 +67,7 @@
   <img src="img/product/RAM.jpg" class="card-img-top" width="190" height="200" alt="...">
   <div class="card-body">
     <h5 class="card-title">Samsung Server RAM</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">64GB, DDR4, 2666 MHz, 288 pin, 1,2V, 60 g.</p>
     <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
 </div>
