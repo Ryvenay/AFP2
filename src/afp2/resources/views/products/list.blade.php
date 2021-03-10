@@ -33,9 +33,9 @@
 </div>
 </div>
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="img/product/hp_laptop.jpg" width="200" height="200" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">HP EliteBook 840 G1 laptop</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Detailed description</a>
   </div>
