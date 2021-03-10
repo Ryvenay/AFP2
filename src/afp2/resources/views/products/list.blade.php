@@ -33,7 +33,7 @@
 </div>
 </div>
 <div class="card" style="width: 18rem;">
-  <img src="img/product/hp_laptop.jpg" width="200" height="200" class="card-img-top" alt="...">
+  <img src="img/product/hp_laptop.jpg"  class="card-img-top" width="200" height="200" alt="...">
   <div class="card-body">
     <h5 class="card-title">HP EliteBook 840 G1 laptop</h5>
     <p class="card-text">Windows 10 Home 64. AMD Ryzen™ 3 processor. Free shipping. Extra 5% off select monitors with purchase of a PC.</p>
@@ -41,7 +41,7 @@
   </div>
 </div>
 <div class="card" style="width: 18rem;">
-  <img src="img/product/hp_printer.jpg" class="card-img-top" alt="...">
+  <img src="img/product/hp_printer.jpg" class="card-img-top" width="200" height="270" alt="...">
   <div class="card-body">
     <h5 class="card-title">HP LaserJet Pro printer</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
