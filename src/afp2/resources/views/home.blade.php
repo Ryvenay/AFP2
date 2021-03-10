@@ -4,7 +4,7 @@
 @section('content')
     <h1>Hello,  
         @if (Auth::check())
-            {{ Auth::user()->last_name }}
+            {{ Auth::user()->username }}
         @else
             Visitor!
         @endif
