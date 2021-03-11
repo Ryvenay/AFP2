@@ -4,6 +4,7 @@
 use App\Models\Address;
 use App\Models\User;
 use App\Models\Product;
+use App\Models\Cupon;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -24,7 +25,9 @@ class Fill extends Migration
             'city' => 'Baktalórántháza',
             'street' => 'Velő út',
             'house' => '420',
-            'note' => 'Ide a lábad be ne tedd!'
+            'note' => 'Ide a lábad be ne tedd!',
+            'updated_at' => now(),
+            'created_at' => now(),
         ],
         [
             'country' => 'Kambodzsa', 
@@ -32,7 +35,9 @@ class Fill extends Migration
             'city' => 'Kőbánya',
             'street' => 'Tarnazsadányi út',
             'house' => '420',
-            'note' => 'Ide se tedd be a lábad be ne tedd!'
+            'note' => 'Ide se tedd be a lábad be ne tedd!',
+            'updated_at' => now(),
+            'created_at' => now(),
         ],
         ]);
 
@@ -48,8 +53,20 @@ class Fill extends Migration
             'billing_address' => 1,
             'shipping_address' => 1,
             'level' => '69',
+            'updated_at' => now(),
+            'created_at' => now(),
         ],
         ]);
+
+        Cupon::insert([
+            [
+                'cupon_name' => 'blz', 
+                'multiplier' => 0.97, 
+                'updated_at' => now(),
+                'created_at' => now(),
+            ],
+        ]);
+
         Product::insert([
         [
             'name' => 'Cheese', 
@@ -58,8 +75,10 @@ class Fill extends Migration
             'img' => 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftrademagazin.hu%2Fwp-content%2Fuploads%2F2019%2F11%2Fmsajt-end3d-cmyk_opt-1024x768.jpg&f=1&nofb=1',
             'description' => 'A sajtok sajtja', 
             's_description' => 'Trappista Sajt', 
-            'price' => 965, 
+            'price' => 999, 
             'category' => 'Dairy products',
+            'updated_at' => now(),
+            'created_at' => now(),
         ],
         [
             'name' => 'Hot Lángoltkolbász', 
@@ -68,8 +87,10 @@ class Fill extends Migration
             'img' => 'http://kolbasz.de/wp-content/uploads/2017/05/tot_csipos_kolbasz.jpg',
             'description' => 'A kolbászok sajtja', 
             's_description' => 'A kolbik kolbija', 
-            'price' => 1254, 
+            'price' => 1299, 
             'category' => 'Animal Products',
+            'updated_at' => now(),
+            'created_at' => now(),
         ],
         [
             'name' => 'Valk 3 rubik cube', 
@@ -78,8 +99,10 @@ class Fill extends Migration
             'img' => 'https://cdn.shopify.com/s/files/1/0646/0891/products/VALK3_4_1024x.png?v=1590544455',
             'description' => 'A kockák sajtja', 
             's_description' => 'A kockák kolbija', 
-            'price' => 3588, 
+            'price' => 8999, 
             'category' => 'Games',
+            'updated_at' => now(),
+            'created_at' => now(),
         ],
         [
             'name' => 'Remote control', 
@@ -88,8 +111,10 @@ class Fill extends Migration
             'img' => 'img/product/remote_c.jpg',
             'description' => 'Detailed description', 
             's_description' => 'Brand new remote control for Philips TV-s. No programming required. Silicone rubber button. 30 Days Money Back Guarantee.1 Year Full Warranty', 
-            'price' => 1254, 
+            'price' => 4999, 
             'category' => 'Tv accessory',
+            'updated_at' => now(),
+            'created_at' => now(),
         ],
         ]);
     }
