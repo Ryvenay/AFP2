@@ -128,6 +128,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'Latitude E5450 laptop', 
+            'brand' => 'Dell', 
+            'in_stock' => 40,
+            'img' => 'img/product/dell_laptop.jpg',
+            'description' => 'Detailed description', 
+            's_description' => 'It was designed to keep end-users productive. This laptop offers more options of ports, storage and connectivity than any other Latitude', 
+            'price' => 200000, 
+            'category' => 'Laptop',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
