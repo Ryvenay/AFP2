@@ -152,6 +152,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'Network Adapter Card', 
+            'brand' => 'Intel', 
+            'in_stock' => 28,
+            'img' => 'img/product/network_card.jpg',
+            'description' => 'Detailed description', 
+            's_description' => 'Gigabit Ethernet Adapters (up to 2.5GbE). On-chip QoS and Traffic Management. Flexible Port Partitioning.', 
+            'price' => 10000, 
+            'category' => 'Adapter card',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
