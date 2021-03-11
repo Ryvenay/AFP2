@@ -140,6 +140,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'LaserJet Pro printer', 
+            'brand' => 'HP', 
+            'in_stock' => 19,
+            'img' => 'img/product/hp_printer.jpg',
+            'description' => 'Detailed description', 
+            's_description' => 'Print, copy, scan, fax, dual band wireless. Simple set-up, 35-page automatic feeder and worry-free wireless.', 
+            'price' => 250000, 
+            'category' => 'Printer',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
