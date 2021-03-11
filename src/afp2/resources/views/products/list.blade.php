@@ -11,7 +11,7 @@
         <img src={{ $product->img }} class="card-img-top" width="200" height="250"  alt="...">
         <div class="card-body">
           <h5 class="card-title">{{ $product->brand}} {{ $product->name }}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">{{$product->price}}</h6>
+          <h6 class="card-subtitle mb-2 text-muted">{{$product->price}} Ft</h6>
           <p class="card-text">{{$product->s_description}}</p>
 
         </div>
