@@ -19,6 +19,9 @@ class CreateProductsTable extends Migration
             $table->string('brand');
             $table->integer('in_stock');
             $table->string('img');
+            $table->text('description');
+            $table->string('s_description');
+            $table->integer('price');
             $table->string('category');
             $table->timestamp('updated_at')->nullable();
             $table->timestamp('created_at')->nullable();

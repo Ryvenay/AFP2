@@ -56,6 +56,9 @@ class Fill extends Migration
             'brand' => 'Cheese kft.', 
             'in_stock' => 23,
             'img' => 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftrademagazin.hu%2Fwp-content%2Fuploads%2F2019%2F11%2Fmsajt-end3d-cmyk_opt-1024x768.jpg&f=1&nofb=1',
+            'description' => 'A sajtok sajtja', 
+            's_description' => 'Trappista Sajt', 
+            'price' => 965, 
             'category' => 'Dairy products',
         ],
         [
@@ -63,6 +66,9 @@ class Fill extends Migration
             'brand' => 'Pick', 
             'in_stock' => 28,
             'img' => 'http://kolbasz.de/wp-content/uploads/2017/05/tot_csipos_kolbasz.jpg',
+            'description' => 'A kolbászok sajtja', 
+            's_description' => 'A kolbik kolbija', 
+            'price' => 1254, 
             'category' => 'Animal Products',
         ],
         [
@@ -70,7 +76,20 @@ class Fill extends Migration
             'brand' => 'Valk', 
             'in_stock' => 420,
             'img' => 'https://cdn.shopify.com/s/files/1/0646/0891/products/VALK3_4_1024x.png?v=1590544455',
+            'description' => 'A kockák sajtja', 
+            's_description' => 'A kockák kolbija', 
+            'price' => 3588, 
             'category' => 'Games',
+        ],
+        [
+            'name' => 'Remote control', 
+            'brand' => 'Philips', 
+            'in_stock' => 32,
+            'img' => 'img/product/remote_c.jpg',
+            'description' => 'Detailed description', 
+            's_description' => 'Brand new remote control for Philips TV-s. No programming required. Silicone rubber button. 30 Days Money Back Guarantee.1 Year Full Warranty', 
+            'price' => 1254, 
+            'category' => 'Tv accessory',
         ],
         ]);
     }
