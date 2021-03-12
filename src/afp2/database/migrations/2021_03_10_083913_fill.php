@@ -49,7 +49,6 @@ class Fill extends Migration
             'last_name' => 'Teszt',
             'email' => 'tesztelek@teszt.hu',
             'birthdate' => '1969-12-16',
-            'regdate' => now(),
             'billing_address' => 1,
             'shipping_address' => 1,
             'level' => '69',
