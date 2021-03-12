@@ -42,20 +42,46 @@ class UserController extends Controller
         return redirect('/');
     }
 
-    public function store(Request $request){
-        $billingAddress = Address::create($request->validate(
-            [
-                'country' => ['required'],
-                'post_code' => ['required'],
-                'city' => ['required'],
-                'street' => ['required'],
-                'house' => ['required']
-            ]
-        ));
-
+    public function store(Request $request){  
+        validateInputs($reuqest);
         
 
+    }
 
+    public function validateInputs(Request $request) { 
+        $rules = [
+            'username' => ['required'],
+            'password' => ['required', 'min:8'],
+            'first_name' => ['required'],
+            'last_name' => ['required'],
+            'email' => ['required'],
+            'birthdate' => ['required'],
+            
+            'bcountry' => ['required'],
+            'bpost_code' => ['required'],
+            'bcity' => ['required'],
+            'bstreet' => ['required'],
+            'bhouse' => ['required']
+        ];
+
+        if($request->has('sadress')) {
+            $rules += [
+                'scountry' => ['required'],
+                'spost_code' => ['required'],
+                'scity' => ['required'],
+                'sstreet' => ['required'],
+                'shouse' => ['required']
+            ];
+        }
+
+        $request->validate($rules);
+    }
+
+    
+
+
+    public function getBillingAddress(Request $request) {
+            
     }
 
 
