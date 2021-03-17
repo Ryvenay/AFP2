@@ -123,7 +123,7 @@ class Fill extends Migration
             'description' => 'Detailed description', 
             's_description' => 'Gigabit Ethernet Adapters (up to 2.5GbE). On-chip QoS and Traffic Management. Flexible Port Partitioning.', 
             'price' => 10000, 
-            'category' => 'Adapter card',
+            'category' => 'Computer component',
             'updated_at' => now(),
             'created_at' => now(),
         ],
