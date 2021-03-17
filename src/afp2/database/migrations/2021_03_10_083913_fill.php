@@ -127,6 +127,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'Server RAM', 
+            'brand' => 'Samsung', 
+            'in_stock' => 17,
+            'img' => 'img/product/RAM.jpg',
+            'description' => 'Detailed description', 
+            's_description' => '64GB, DDR4, 2666 MHz, 288 pin, 1,2V, 60 g.', 
+            'price' => 5000, 
+            'category' => 'Computer component',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
