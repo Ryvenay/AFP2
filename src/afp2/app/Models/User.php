@@ -15,9 +15,14 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name',
+        'username',
         'email',
         'password',
+        'first_name',
+        'last_name',
+        'birthdate',
+        'billing_address',
+        'shipping_address'
     ];
 
     /**
@@ -39,7 +44,7 @@ class User extends Authenticatable
         return $this->hasOne(Address::class,'id','shipping_address');
     }
 
-    public function OrderBack()
+    public function Orders()
     {
         return $this->hasMany(Order::class,'user_id','id');
     }
