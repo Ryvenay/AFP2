@@ -44,6 +44,7 @@ class UserController extends Controller
 
     public function store(Request $request){  
         validateInputs($reuqest);
+        storeUser($request);
     }
 
     public function validateInputs(Request $request) { 
@@ -76,7 +77,7 @@ class UserController extends Controller
     }
 
     public function storeUser(Request $request) {
-        
+
         $billingAddress = storeBillingAddress($request);
 
         if($request.has("shippingAddress")) {
