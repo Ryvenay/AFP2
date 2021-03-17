@@ -44,8 +44,6 @@ class UserController extends Controller
 
     public function store(Request $request){  
         validateInputs($reuqest);
-        
-
     }
 
     public function validateInputs(Request $request) { 
@@ -77,8 +75,30 @@ class UserController extends Controller
         $request->validate($rules);
     }
 
-    
+    public function storeUser(Request $request) {
+        
+        $billingAddress = storeBillingAddress($request);
 
+        if($request.has("shippingAddress")) {
+            $shippingAddress = storeShippingAddress($request);
+        }
+        else {
+            $shippingAddress = $billingAddress;
+        }
+
+        User::create([
+            'username' => $request('username'),
+            'password' => $request('password'),
+            'first_name' => $request('first_name'),
+            'last_name' => $request('last_name'),
+            'email' => $request('email'),
+            'birthdate' => $request('birthdate'),
+            'billing_address' => $billingAddress,
+            'shipping address' => $shippingAddress
+        ]);
+
+    }
+    
     public function storeBillingAddress(Request $request) {
         $address = Address::create([
             'country' => $request('bcountry'),
