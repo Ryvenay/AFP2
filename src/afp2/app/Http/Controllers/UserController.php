@@ -79,9 +79,18 @@ class UserController extends Controller
 
     
 
+    public function storeBillingAddress(Request $request) {
+        $address = Address::create([
+            'country' => $request('bcountry'),
+            'post_code' => $request('bpost_code'),
+            'city' => $request('bcity'),
+            'street' => $request('bstreet'),
+            'house' => $request('house'),
+            'note' => $request('note')
+        ]);
 
-    public function getBillingAddress(Request $request) {
-            
+        return $address;
+
     }
 
 
