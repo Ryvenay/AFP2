@@ -151,6 +151,30 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'Smart LED TV', 
+            'brand' => 'Philips', 
+            'in_stock' => 40,
+            'img' => 'img/product/philips_TV.jpg',
+            'description' => 'Detailed description', 
+            's_description' => 'Intelligent LEDs around the edges of the TV cast on-screen colours onto the walls, and into the room, in real time. You get perfectly tuned ambient lighting. And one more reason to love your TV.', 
+            'price' => 120000, 
+            'category' => 'Television',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
+        [
+            'name' => 'Galaxy S20', 
+            'brand' => 'Samsung', 
+            'in_stock' => 27,
+            'img' => 'img/product/samsung_phone.jpg',
+            'description' => 'Detailed description', 
+            's_description' => 'You can send back for 14 days if it has any problems.', 
+            'price' => 98000, 
+            'category' => 'Smart Phone',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
