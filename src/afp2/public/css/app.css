@@ -10791,3 +10791,9 @@ textarea.form-control-lg {
 .carousel-inner .active {
   display: flex;
 }
+.carousel-inner .carousel-item-next {
+  display: flex;
+}
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
