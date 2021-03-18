@@ -10772,4 +10772,6 @@ textarea.form-control-lg {
 
 .card {
   width: 250px;
+  margin: 15px;
+  margin-bottom: 10px;
 }
