@@ -5,6 +5,50 @@ $warning: #ee3b2d;
 $danger: #ee3b2d;
 $light: #ffffff;
 $dark: #1a202c;
-
-
 @import "node_modules/bootstrap/scss/bootstrap";
+.login_container_back {
+    background-color: $primary;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.login_error {}
+
+.footer_div {
+    background-color: $secondary;
+    bottom: 0;
+    left: 0;
+    color: $primary;
+}
+
+#login_right {
+    background-color: $secondary;
+    color: $primary;
+}
+
+.login_logo_img {
+    width: 100px;
+    padding-top: 10px;
+}
+
+#login_btn {
+    color: $secondary;
+    background-color: $warning;
+    border-color: $secondary;
+}
+
+#login_forgot_btn {
+    color: $secondary;
+    background-color: $warning;
+    padding-bottom: 10px;
+}
+
+#login_register_btn {
+    color: $secondary;
+    background-color: $warning;
+    padding-bottom: 10px;
+}
+
+.login_form {
+    padding-top: 70px;
+}
