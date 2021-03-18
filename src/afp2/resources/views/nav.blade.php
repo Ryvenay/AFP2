@@ -1,10 +1,11 @@
-<nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ">
             <li class="nav-item active">
                 <a class="nav-link" id="nav-home" href="/">Home</a>
             </li>
@@ -16,12 +17,6 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/products">Products3</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/login">Login</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/logout">Logout</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/register">Register</a>
@@ -36,8 +31,12 @@
                 <a class="nav-link" href="/cart">Cart</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="cv"></a>
+                <a class="nav-link" href="/login">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/logout">Logout</a>
             </li>
         </ul>
     </div>
+</div>
 </nav>
