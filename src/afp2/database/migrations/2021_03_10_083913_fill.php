@@ -97,7 +97,7 @@ class Fill extends Migration
             'in_stock' => 40,
             'img' => 'img/product/dell_laptop.jpg',
             'description' => 'Detailed description', 
-            's_description' => 'It was designed to keep end-users productive. This laptop offers more options of ports, storage and connectivity than any other Latitude', 
+            's_description' => 'It was designed to keep end-users productive.', 
             'price' => 200000, 
             'category' => 'Laptop',
             'updated_at' => now(),
