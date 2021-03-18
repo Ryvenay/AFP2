@@ -85,7 +85,7 @@ class Fill extends Migration
             'in_stock' => 32,
             'img' => 'img/product/sony_TV.jpg',
             'description' => 'Detailed description', 
-            's_description' => 'Cognitive Processor XR™ understands how humans see and hear for true immersion.Multi-position stand for versatile TV placement.', 
+            's_description' => 'Cognitive Processor XR™ understands how humans see and hear for true immersion.', 
             'price' => 99999, 
             'category' => 'Television',
             'updated_at' => now(),
