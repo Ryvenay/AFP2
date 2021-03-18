@@ -145,7 +145,7 @@ class Fill extends Migration
             'in_stock' => 40,
             'img' => 'img/product/philips_TV.jpg',
             'description' => 'Detailed description', 
-            's_description' => 'Intelligent LEDs around the edges of the TV cast on-screen colours onto the walls, and into the room, in real time. You get perfectly tuned ambient lighting. And one more reason to love your TV.', 
+            's_description' => 'Intelligent LEDs around the edges of the TV cast on-screen colours onto the walls.', 
             'price' => 120000, 
             'category' => 'Television',
             'updated_at' => now(),
