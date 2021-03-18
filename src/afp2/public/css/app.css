@@ -10769,3 +10769,7 @@ textarea.form-control-lg {
 .login_form {
   padding-top: 70px;
 }
+
+.card {
+  width: 250px;
+}
