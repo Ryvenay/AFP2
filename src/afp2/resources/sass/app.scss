@@ -15,6 +15,7 @@ $dark: #1a202c;
 .login_error {}
 
 .footer_div {
+    padding: 20px;
     background-color: $secondary;
     bottom: 0;
     left: 0;
@@ -56,4 +57,21 @@ $dark: #1a202c;
     width: 250px;
     margin: 15px;
     margin-bottom: 10px;
+}
+
+.carousel-inner {
+    overflow: hidden;
+    .carousel-item {
+        height: 32rem;
+        img {
+            object-fit: cover;
+            min-height: 32rem;
+        }
+    }
+
+    .active {
+        display: flex;
+    }
+
+
 }

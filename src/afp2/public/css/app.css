@@ -10732,6 +10732,7 @@ textarea.form-control-lg {
 }
 
 .footer_div {
+  padding: 20px;
   background-color: #2d3749;
   bottom: 0;
   left: 0;
@@ -10774,4 +10775,19 @@ textarea.form-control-lg {
   width: 250px;
   margin: 15px;
   margin-bottom: 10px;
+}
+
+.carousel-inner {
+  overflow: hidden;
+}
+.carousel-inner .carousel-item {
+  height: 32rem;
+}
+.carousel-inner .carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 32rem;
+}
+.carousel-inner .active {
+  display: flex;
 }
