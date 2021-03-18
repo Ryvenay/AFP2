@@ -10725,3 +10725,47 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.login_container_back {
+  background-color: #a4bdcd;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footer_div {
+  background-color: #2d3749;
+  bottom: 0;
+  left: 0;
+  color: #a4bdcd;
+}
+
+#login_right {
+  background-color: #2d3749;
+  color: #a4bdcd;
+}
+
+.login_logo_img {
+  width: 100px;
+  padding-top: 10px;
+}
+
+#login_btn {
+  color: #2d3749;
+  background-color: #ee3b2d;
+  border-color: #2d3749;
+}
+
+#login_forgot_btn {
+  color: #2d3749;
+  background-color: #ee3b2d;
+  padding-bottom: 10px;
+}
+
+#login_register_btn {
+  color: #2d3749;
+  background-color: #ee3b2d;
+  padding-bottom: 10px;
+}
+
+.login_form {
+  padding-top: 70px;
+}
