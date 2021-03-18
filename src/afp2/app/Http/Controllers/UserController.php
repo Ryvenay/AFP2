@@ -42,9 +42,11 @@ class UserController extends Controller
         return redirect('/');
     }
 
-    public function store(Request $request){  
+    public function save(Request $request){  
         validateInputs($reuqest);
-        storeUser($request);
+
+        saveUser($request);
+
     }
 
     public function validateInputs(Request $request) { 
@@ -76,12 +78,12 @@ class UserController extends Controller
         $request->validate($rules);
     }
 
-    public function storeUser(Request $request) {
+    public function saveUser(Request $request) {
 
-        $billingAddress = storeBillingAddress($request);
+        $billingAddress = saveBillingAddress($request);
 
         if($request.has("shippingAddress")) {
-            $shippingAddress = storeShippingAddress($request);
+            $shippingAddress = saveShippingAddress($request);
         }
         else {
             $shippingAddress = $billingAddress;
@@ -100,7 +102,7 @@ class UserController extends Controller
 
     }
     
-    public function storeBillingAddress(Request $request) {
+    public function saveBillingAddress(Request $request) {
         $address = Address::create([
             'country' => $request('bcountry'),
             'post_code' => $request('bpost_code'),
@@ -114,7 +116,7 @@ class UserController extends Controller
 
     }
 
-    public function storeShippingAddress(Request $request) {
+    public function saveShippingAddress(Request $request) {
         $address = Address::create([
             'country' => $request('bcountry'),
             'post_code' => $request('bpost_code'),

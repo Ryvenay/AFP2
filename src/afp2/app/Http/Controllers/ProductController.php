@@ -27,7 +27,7 @@ class ProductController extends Controller
         return view ('products.create');
     }
 
-    public function store() {
+    public function save() {
         Product::create($request->validate([
             'name' => ['required', 'max:25'],
             'brand' => ['required', 'max:25'],
