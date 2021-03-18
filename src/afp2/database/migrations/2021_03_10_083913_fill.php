@@ -109,7 +109,7 @@ class Fill extends Migration
             'in_stock' => 19,
             'img' => 'img/product/hp_printer.jpg',
             'description' => 'Detailed description', 
-            's_description' => 'Print, copy, scan, fax, dual band wireless. Simple set-up, 35-page automatic feeder and worry-free wireless.', 
+            's_description' => 'Print, copy, scan, fax, dual band wireless. Simple set-up.', 
             'price' => 250000, 
             'category' => 'Printer',
             'updated_at' => now(),
