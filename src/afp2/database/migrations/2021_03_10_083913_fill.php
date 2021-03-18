@@ -131,7 +131,7 @@ class Fill extends Migration
             'name' => 'Server RAM', 
             'brand' => 'Samsung', 
             'in_stock' => 17,
-            'img' => 'img/product/RAM.jpg',
+            'img' => 'img/product/samsung_ram.jpg',
             'description' => 'Detailed description', 
             's_description' => '64GB, DDR4, 2666 MHz, 288 pin, 1,2V, 60 g.', 
             'price' => 5000, 
