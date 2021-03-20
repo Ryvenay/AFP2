@@ -5,9 +5,21 @@ $warning: #ee3b2d;
 $danger: #ee3b2d;
 $light: #ffffff;
 $dark: #1a202c;
+
 @import "node_modules/bootstrap/scss/bootstrap";
 .nav-link {
+    color: $primary !important;
     .icon {
+        stroke: $primary;
+        height: 25px;
+        width: auto;
+        stroke-width: 0.5px;
+        &:hover {
+            stroke: $danger;
+        }
+    }
+
+    .logo-icon {
         max-height: 35px;
         width: auto;
         margin-top: -5px;
@@ -19,6 +31,11 @@ $dark: #1a202c;
         margin-top: -5px;
         margin-bottom: -5px;
     }
+
+    &:hover {
+        color: $danger !important;
+    }
+    
 }
 
 body {
@@ -179,3 +196,6 @@ body {
         display: flex;
     }
 }
+
+
+
