@@ -10731,12 +10731,29 @@ textarea.form-control-lg {
   padding-bottom: 25px;
 }
 
+.icon {
+  height: 20px;
+  width: auto;
+}
+
 .login_background {
   background-color: #a4bdcd;
   min-height: 100vh;
 }
 
+.nav-link {
+  color: #a4bdcd !important;
+}
 .nav-link .icon {
+  stroke: #a4bdcd;
+  height: 25px;
+  width: auto;
+  stroke-width: 0.5px;
+}
+.nav-link .icon:hover {
+  stroke: #ee3b2d;
+}
+.nav-link .logo-icon {
   max-height: 35px;
   width: auto;
   margin-top: -5px;
@@ -10747,6 +10764,9 @@ textarea.form-control-lg {
   width: auto;
   margin-top: -5px;
   margin-bottom: -5px;
+}
+.nav-link:hover {
+  color: #ee3b2d !important;
 }
 
 body {
