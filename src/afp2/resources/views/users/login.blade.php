@@ -23,7 +23,7 @@
                             </div>
                         </div>
                         <div>
-                            @error("email")<p class = "login_error">{{ $errors }}</p>@enderror
+                            @error("email")<br><div class="login_error"><p>{{ $errors->first('email') }}</p></div>@enderror
                             <br>
                             <input class="btn btn-primary" id="login_btn" type="submit" value="Login">
                         </div>
@@ -35,17 +35,19 @@
         </div>
             <div class="col" id="login_right">
                 <div>
-                <img class="login_logo_img"
-                src="img/logo/logo_lighter.png">
+                    <img class="login_logo_img" src="img/logo/logo_lighter.png">
+                    <img class="login_logo_img_itstore" src="img/logo/logo_itstore.png">
+                    <br>
                 <h1> Welcome to our webshop! </h1>
                 </div>
 
                 <div>
                     <p>On this page, you can login or register to our webshop.</p>
                 </div>
-                <div>
-                <input class="btn btn-primary" id="login_register_btn" type="submit" value="Register">
-                <input class="btn btn-primary" id="login_forgot_btn" type="submit" value="Forgot password">
+                <div class="col-md-6">
+                    <input class="btn btn-primary" id="login_forgot_btn" type="submit" value="Forgot password">
+                    <br>
+                    <input class="btn btn-primary" id="login_register_btn" type="submit" value="Register">
                 </div>
                 <br>
             </div>

@@ -10725,17 +10725,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.login_container_back {
-  background-color: #a4bdcd;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.login_background {
-  background-color: #a4bdcd;
-  min-height: 100vh;
-}
-
 .nav-link .icon {
   max-height: 35px;
   width: auto;
@@ -10765,6 +10754,26 @@ body {
   color: #a4bdcd;
 }
 
+.login_container_back {
+  background-color: #a4bdcd;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.login_error {
+  background-color: #ee3b2d;
+  color: #ffffff;
+}
+
+.login_background {
+  background-color: #a4bdcd;
+  min-height: 100vh;
+}
+
+#apassword {
+  margin-top: 10px;
+}
+
 #login_right {
   background-color: #2d3749;
   color: #a4bdcd;
@@ -10775,28 +10784,70 @@ body {
   padding-top: 10px;
 }
 
+.login_logo_img_itstore {
+  padding-top: 20px;
+  width: 200px;
+}
+
 #login_btn {
-  color: #2d3749;
+  color: #ffffff;
   background-color: #ee3b2d;
   border-color: transparent;
+  width: 100%;
+  font-weight: bold;
 }
 
 #login_forgot_btn {
-  color: #2d3749;
+  color: #ffffff;
   background-color: #ee3b2d;
   padding-bottom: 10px;
   border-color: transparent;
+  font-weight: bold;
 }
 
 #login_register_btn {
-  color: #2d3749;
+  color: #ffffff;
   background-color: #ee3b2d;
   padding-bottom: 10px;
   border-color: transparent;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .login_form {
   padding-top: 70px;
+}
+
+.register_background {
+  background-color: #a4bdcd;
+  min-height: 100vh;
+}
+
+.register_welcome {
+  margin-top: 30px;
+}
+
+.register_welcome_note {
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+.register_form_background {
+  background-color: #2d3749;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #a4bdcd;
+  font-weight: bold;
+}
+
+#register_btn {
+  background-color: #ee3b2d;
+  color: #ffffff;
+  font-weight: bold;
+  border-color: transparent;
+  width: 100%;
 }
 
 .card {

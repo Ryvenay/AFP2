@@ -6,19 +6,6 @@ $danger: #ee3b2d;
 $light: #ffffff;
 $dark: #1a202c;
 @import "node_modules/bootstrap/scss/bootstrap";
-.login_container_back {
-    background-color: $primary;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-.login_error {}
-
-.login_background {
-    background-color: $primary;
-    min-height: 100vh;
-}
-
 .nav-link {
     .icon {
         max-height: 35px;
@@ -50,6 +37,29 @@ body {
     color: $primary;
 }
 
+//login
+.login_container_back {
+    background-color: $primary;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.login_error {
+    background-color: $warning;
+    color: $light;
+}
+
+.login_background {
+    background-color: $primary;
+    min-height: 100vh;
+}
+
+#aemail {}
+
+#apassword {
+    margin-top: 10px;
+}
+
 #login_right {
     background-color: $secondary;
     color: $primary;
@@ -60,30 +70,75 @@ body {
     padding-top: 10px;
 }
 
+.login_logo_img_itstore {
+    padding-top: 20px;
+    width: 200px;
+}
+
 #login_btn {
-    color: $secondary;
+    color: $light;
     background-color: $warning;
     border-color: transparent;
+    width: 100%;
+    font-weight: bold;
 }
 
 #login_forgot_btn {
-    color: $secondary;
+    color: $light;
     background-color: $warning;
     padding-bottom: 10px;
     border-color: transparent;
+    font-weight: bold;
 }
 
 #login_register_btn {
-    color: $secondary;
+    color: $light;
     background-color: $warning;
     padding-bottom: 10px;
     border-color: transparent;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 .login_form {
     padding-top: 70px;
 }
 
+//end login
+//register
+.register_background {
+    background-color: $primary;
+    min-height: 100vh;
+}
+
+.register_welcome {
+    margin-top: 30px;
+}
+
+.register_welcome_note {
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.register_form_background {
+    background-color: $secondary;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: $primary;
+    font-weight: bold;
+}
+
+#register_btn {
+    background-color: $warning;
+    color: $light;
+    font-weight: bold;
+    border-color: transparent;
+    width: 100%;
+}
+
+//end register
 .card {
     img {
         max-width: 200px;

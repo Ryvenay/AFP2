@@ -1,6 +1,5 @@
 
         <div class="footer_div">
-                <center>Copyright &copy; 2021 <b> IMPACT ZONE </b> TEAM </center>
         
 
         <div class="container">
@@ -81,7 +80,10 @@
                     </div>
                 </div>
             </div>
-            
+        Copyright &copy; 2021 <b> IMPACT ZONE </b> TEAM
         </div>
+
+
+                            
     </div>
     
