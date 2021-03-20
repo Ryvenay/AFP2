@@ -19,6 +19,21 @@ $dark: #1a202c;
     min-height: 100vh;
 }
 
+.nav-link {
+    .icon {
+        max-height: 35px;
+        width: auto;
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+    .logo-text {
+        max-height: 25px;
+        width: auto;
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+}
+
 body {
     background-color: $light;
 }

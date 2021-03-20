@@ -1,3 +1,5 @@
+
+
 <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
     <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -8,7 +10,10 @@
             <div class="me-auto">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" id="nav-home" href="/">Home</a>
+                        <a class="nav-link" id="nav-home" href="/">
+                            <img src="/img/logo/logo_lighter.png" class="icon">
+                            <img src="/img/logo/logo_itstore.png" class="logo-text">
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/products">Products1</a>
@@ -28,23 +33,32 @@
                 </ul>
             </div>
             <ul class="navbar-nav">
-            @auth
                 <li class="nav-item">
                     <a class="nav-link" href="/cart">Cart</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/logout">Logout</a>
-                </li>
-            @endauth
-            @guest
-                <li class="nav-item">
-                        <a class="nav-link" href="/login">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/register">Register</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">User</a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        @auth
+                        <li class="dropdown-item">
+                            <a class="nav-link" href="/profile">Profile</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="nav-link" href="/logout">Logout</a>
+                        </li>
+                        @endauth
+                        @guest
+                        <li class="dropdown-item">
+                                <a class="nav-link" href="/login">Login</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="nav-link" href="/register">Register</a>
+                        </li>
+                        @endguest
+                    </ul>
                 </li>
             </ul>
-            @endguest
+            
     </div>
 </div>
 </nav>
