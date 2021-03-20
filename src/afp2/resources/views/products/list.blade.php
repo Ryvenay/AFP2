@@ -8,7 +8,9 @@
   @foreach ($products as $product)
     <div class="col-md-3">
       <div class="card" style="width: 18rem;">
-        <img src={{ $product->img }} class="card-img-top" width="200" height="250"  alt="...">
+      <div class="card-img text-center">
+        <img src={{ $product->img }} class="card-img-top" alt="...">
+      </div>
         <div class="card-body">
           <h5 class="card-title">{{ $product->brand}} {{ $product->name }}</h5>
           <h6 class="card-subtitle mb-2 text-muted">{{$product->price}} Ft</h6>

@@ -54,7 +54,22 @@ $dark: #1a202c;
     padding-top: 70px;
 }
 .card{
+    img{
+        max-width: 200px;
+        max-height: 200px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-img{
+        height: 200px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
     width: 250px;
+    height: 400px;
     margin: 15px;
     margin-bottom: 10px;
 }
