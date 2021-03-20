@@ -1,7 +1,8 @@
 @extends('layout')
 
 @section('content')
-<div class="login_container_back">
+<div class="login_background">
+<div class="login_container_back"  id="login_">
     <div class="container">
         <div class="row">
         <div class="col">
@@ -35,7 +36,7 @@
             <div class="col" id="login_right">
                 <div>
                 <img class="login_logo_img"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F9a%2FLaravel.svg%2F1200px-Laravel.svg.png&f=1&nofb=1">
+                src="img/logo/logo_lighter.png">
                 <h1> Welcome to our webshop! </h1>
                 </div>
 
@@ -51,4 +52,6 @@
         </div>
     </div>
 </div>
+</div>
+
 @endsection

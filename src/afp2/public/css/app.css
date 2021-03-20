@@ -10731,6 +10731,19 @@ textarea.form-control-lg {
   padding-bottom: 25px;
 }
 
+.login_background {
+  background-color: #a4bdcd;
+  min-height: 100vh;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.content-div {
+  min-height: 100vh;
+}
+
 .footer_div {
   padding: 20px;
   background-color: #2d3749;
@@ -10752,19 +10765,21 @@ textarea.form-control-lg {
 #login_btn {
   color: #2d3749;
   background-color: #ee3b2d;
-  border-color: #2d3749;
+  border-color: transparent;
 }
 
 #login_forgot_btn {
   color: #2d3749;
   background-color: #ee3b2d;
   padding-bottom: 10px;
+  border-color: transparent;
 }
 
 #login_register_btn {
   color: #2d3749;
   background-color: #ee3b2d;
   padding-bottom: 10px;
+  border-color: transparent;
 }
 
 .login_form {

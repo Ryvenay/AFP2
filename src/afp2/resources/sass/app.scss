@@ -14,6 +14,19 @@ $dark: #1a202c;
 
 .login_error {}
 
+.login_background {
+    background-color: $primary;
+    min-height: 100vh;
+}
+
+body {
+    background-color: $light;
+}
+
+.content-div {
+    min-height: 100vh;
+}
+
 .footer_div {
     padding: 20px;
     background-color: $secondary;
@@ -35,33 +48,36 @@ $dark: #1a202c;
 #login_btn {
     color: $secondary;
     background-color: $warning;
-    border-color: $secondary;
+    border-color: transparent;
 }
 
 #login_forgot_btn {
     color: $secondary;
     background-color: $warning;
     padding-bottom: 10px;
+    border-color: transparent;
 }
 
 #login_register_btn {
     color: $secondary;
     background-color: $warning;
     padding-bottom: 10px;
+    border-color: transparent;
 }
 
 .login_form {
     padding-top: 70px;
 }
-.card{
-    img{
+
+.card {
+    img {
         max-width: 200px;
         max-height: 200px;
         height: auto;
         margin-left: auto;
         margin-right: auto;
     }
-    .card-img{
+    .card-img {
         height: 200px;
         width: 250px;
         margin-left: auto;
@@ -83,7 +99,6 @@ $dark: #1a202c;
             min-height: 32rem;
         }
     }
-
     .active {
         display: flex;
     }
@@ -93,6 +108,4 @@ $dark: #1a202c;
     .carousel-item-prev {
         display: flex;
     }
-
-
 }
