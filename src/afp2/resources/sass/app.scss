@@ -6,16 +6,42 @@ $danger: #ee3b2d;
 $light: #ffffff;
 $dark: #1a202c;
 
+$enable-shadows: true;
+$box-shadow-sm: 0 .125rem .25rem rgba(#000, .400);
+
 @import "node_modules/bootstrap/scss/bootstrap";
+
+
+.login_container_back {
+    background-color: $primary;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+//.login_error {}
+
+.icon {
+    height:20px;
+    width: auto;
+}
+
+.login_background {
+    background-color: $primary;
+    min-height: 100vh;
+}
+
+
 .nav-link {
     color: $primary !important;
+
     .icon {
-        stroke: $primary;
+        fill: $primary;
         height: 25px;
         width: auto;
         stroke-width: 0.5px;
         &:hover {
-            stroke: $danger;
+            fill: $danger;
+            color: $danger;
         }
     }
 
@@ -44,6 +70,7 @@ body {
 
 .content-div {
     min-height: 100vh;
+    margin-top: 55px;
 }
 
 .footer_div {
@@ -197,5 +224,8 @@ body {
     }
 }
 
-
+.items {
+    margin-left: auto;
+    margin-right: auto;
+}
 
