@@ -40,5 +40,33 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+<h2>NEW PRODUCTS</h2>
+<hr>
+
+
+<div class="container items">
+  <div class="row">
+  @foreach ($newItems as $newItem)
+    <div class="col-md-auto">
+      <div class="card">
+        <div class="card-img text-center">
+          <img src={{ $newItem->img }} class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{ $newItem->brand}} {{ $newItem->name }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{$newItem->price}} Ft</h6>
+          <p class="card-text">{{$newItem->s_description}}</p>
+        </div>
+        <a href="/products/{{$newItem->id}}" role="button" class="stretched-link"></a>
+      </div>
+    </div>
+  @endforeach
+
+
+
+  </div>
+
+</div>
     
 @endsection
