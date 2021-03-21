@@ -43,10 +43,11 @@ class UserController extends Controller
         return redirect('/');
     }
 
-    public function save(Request $request){  
-        validateInputs($reuqest);
+    public function save(Request $request){ 
 
-        saveUser($request);
+        $this->validateInputs($request);
+
+        $this->saveUser($request);
 
     }
 
@@ -81,53 +82,55 @@ class UserController extends Controller
 
     public function saveUser(Request $request) {
 
-        $billingAddress = saveBillingAddress($request);
+        $billingAddress = $this->saveBillingAddress($request);
 
-        if($request.has("shippingAddress")) {
-            $shippingAddress = saveShippingAddress($request);
+        if($request->has("shippingAddress")) {
+            $shippingAddress = $this->saveShippingAddress($request);
         }
         else {
             $shippingAddress = $billingAddress;
         }
 
         User::create([
-            'username' => $request('username'),
-            'password' => $request('password'),
-            'first_name' => $request('first_name'),
-            'last_name' => $request('last_name'),
-            'email' => $request('email'),
-            'birthdate' => $request('birthdate'),
+            'username' => $request->input('username'),
+            'password' =>  Hash::make($request->input('password')),
+            'first_name' => $request->input('first_name'),
+            'last_name' => $request->input('last_name'),
+            'email' => $request->input('email'),
+            'birthdate' => now(),
             'billing_address' => $billingAddress,
-            'shipping address' => $shippingAddress
+            'shipping_address' => $shippingAddress
         ]);
+
+        return view('users.successfulRegistration');
 
     }
     
     public function saveBillingAddress(Request $request) {
         $address = Address::create([
-            'country' => $request('bcountry'),
-            'post_code' => $request('bpost_code'),
-            'city' => $request('bcity'),
-            'street' => $request('bstreet'),
-            'house' => $request('house'),
-            'note' => $request('note')
+            'country' => $request->input('bcountry'),
+            'post_code' => $request->input('bpost_code'),
+            'city' => $request->input('bcity'),
+            'street' => $request->input('bstreet'),
+            'house' => $request->input('bhouse'),
+            'note' => $request->input('note')
         ]);
 
-        return $address;
+        return $address->id;
 
     }
 
     public function saveShippingAddress(Request $request) {
         $address = Address::create([
-            'country' => $request('bcountry'),
-            'post_code' => $request('bpost_code'),
-            'city' => $request('bcity'),
-            'street' => $request('bstreet'),
-            'house' => $request('house'),
-            'note' => $request('note')
+            'country' => $request->input('bcountry'),
+            'post_code' => $request->input('bpost_code'),
+            'city' => $request->input('bcity'),
+            'street' => $request->input('bstreet'),
+            'house' => $request->input('shouse'),
+            'note' => $request->input('note')
         ]);
         
-        return $address;
+        return $address->id;
 
     }
 
