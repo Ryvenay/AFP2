@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="container items">
-  <div class="row">
+  <div class="row justify-content-md-center">
 
 
   @foreach ($products as $product)

@@ -46,7 +46,7 @@
 
 
 <div class="container items">
-  <div class="row">
+  <div class="row justify-content-md-center">
   @foreach ($newItems as $newItem)
     <div class="col-md-auto">
       <div class="card">
