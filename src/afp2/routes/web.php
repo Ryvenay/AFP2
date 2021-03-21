@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\HomepageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,11 +20,7 @@ Route::get('/laravel', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('home', [
-        'newItems' => ProductController::getNewProducts()
-    ]);
-});
+Route::get('/', [HomepageController::class, 'show']);
 
 Route::get('/products', [ProductController::class, 'index']);
 Route::get('/products/create', [ProductController::class, 'create']);
