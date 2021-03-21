@@ -10762,6 +10762,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+h2, .h2 {
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .login_container_back {
   background-color: #a4bdcd;
   padding-top: 25px;
@@ -10910,6 +10917,7 @@ body {
 .register_welcome_note {
   margin-left: 10px;
   margin-bottom: 50px;
+  text-align: left;
 }
 
 .register_form_background {
@@ -10949,6 +10957,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+}
+.card:hover {
+  border-color: #198754;
 }
 
 .carousel-inner {

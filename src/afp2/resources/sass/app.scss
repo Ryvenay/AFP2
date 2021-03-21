@@ -12,6 +12,13 @@ $box-shadow-sm: 0 .125rem .25rem rgba(#000, .400);
 @import "node_modules/bootstrap/scss/bootstrap";
 
 
+h2 {
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .login_container_back {
     background-color: $primary;
     padding-top: 25px;
@@ -170,6 +177,7 @@ body {
 .register_welcome_note {
     margin-left: 10px;
     margin-bottom: 50px;
+    text-align: left;
 }
 
 .register_form_background {
@@ -210,6 +218,11 @@ body {
     height: 400px;
     margin: 15px;
     margin-bottom: 10px;
+
+    &:hover {
+        border-color: $successs;
+        
+    }
 }
 
 .carousel-inner {
