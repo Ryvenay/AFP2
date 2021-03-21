@@ -29,9 +29,17 @@ $box-shadow-sm: 0 .125rem .25rem rgba(#000, .400);
     background-color: $primary;
     min-height: 100vh;
 }
+.navbar-nav {
+    display: inline-flex;
+    margin-top: 2px;
+}
 
+.navbar {
+    height: 50px;
+}
 
 .nav-link {
+    display: inline;
     color: $primary !important;
 
     .icon {
@@ -70,7 +78,7 @@ body {
 
 .content-div {
     min-height: 100vh;
-    margin-top: 55px;
+    margin-top: 50px;
 }
 
 .footer_div {

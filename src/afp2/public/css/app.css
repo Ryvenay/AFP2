@@ -10778,7 +10778,17 @@ textarea.form-control-lg {
   min-height: 100vh;
 }
 
+.navbar-nav {
+  display: inline-flex;
+  margin-top: 2px;
+}
+
+.navbar {
+  height: 50px;
+}
+
 .nav-link {
+  display: inline;
   color: #a4bdcd !important;
 }
 .nav-link .icon {
@@ -10813,7 +10823,7 @@ body {
 
 .content-div {
   min-height: 100vh;
-  margin-top: 55px;
+  margin-top: 50px;
 }
 
 .footer_div {

@@ -6,14 +6,13 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="nav-link" id="nav-home" href="/">
+            <img src="/img/logo/logo_lighter.png" class="logo-icon">
+            <img src="/img/logo/logo_itstore.png" class="logo-text">
+            </a>
             <div class="me-auto">
+                
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" id="nav-home" href="/">
-                            <img src="/img/logo/logo_lighter.png" class="logo-icon">
-                            <img src="/img/logo/logo_itstore.png" class="logo-text">
-                        </a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/products">Products1</a>
                     </li>
