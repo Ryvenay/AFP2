@@ -69,5 +69,8 @@ class ProductController extends Controller
         return $success;
     }
 
+    public static function getNewProducts() {
+        return Product::orderBy('created_at', 'desc')->take(4)->get();
+    }
 
 }
