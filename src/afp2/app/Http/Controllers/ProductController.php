@@ -70,7 +70,14 @@ class ProductController extends Controller
     }
 
     public static function getNewProducts() {
-        return Product::orderBy('created_at', 'desc')->take(4)->get();
+        return Product::orderBy('created_at', 'desc')->get();
     }
 
+    public static function getFewLeft() {
+        return Product::orderBy('in_stock')->where('in_stock','>',0)->get();
+    }
+
+    public static function getGreatDeals() {
+        return Product::get()->random(4);
+    }
 }
