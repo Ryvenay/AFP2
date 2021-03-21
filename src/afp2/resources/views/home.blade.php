@@ -41,9 +41,10 @@
   </button>
 </div>
 
+
+
 <h2>NEW PRODUCTS</h2>
 <hr>
-
 
 <div class="container items">
   <div class="row justify-content-md-center">
@@ -62,11 +63,58 @@
       </div>
     </div>
   @endforeach
-
-
-
   </div>
-
 </div>
-    
+
+
+
+<h2>ONLY FEW LEFT</h2>
+<hr>
+
+<div class="container items">
+  <div class="row justify-content-md-center">
+  @foreach ($fewLeft as $item)
+    <div class="col-md-auto">
+      <div class="card">
+        <div class="card-img text-center">
+          <img src={{ $item->img }} class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{ $item->brand}} {{ $item->name }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{$item->price}} Ft</h6>
+          <p class="card-text">{{$item->s_description}}</p>
+        </div>
+        <a href="/products/{{$item->id}}" role="button" class="stretched-link"></a>
+      </div>
+    </div>
+  @endforeach
+  </div>
+</div>
+
+
+<h2>GREAT DEALS</h2>
+<hr>
+
+<div class="container items">
+  <div class="row justify-content-md-center">
+  @foreach ($greatDeals as $item)
+    <div class="col-md-auto">
+      <div class="card">
+        <div class="card-img text-center">
+          <img src={{ $item->img }} class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{ $item->brand}} {{ $item->name }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{$item->price}} Ft</h6>
+          <p class="card-text">{{$item->s_description}}</p>
+        </div>
+        <a href="/products/{{$item->id}}" role="button" class="stretched-link"></a>
+      </div>
+    </div>
+  @endforeach
+  </div>
+</div>
+
+
+
 @endsection
