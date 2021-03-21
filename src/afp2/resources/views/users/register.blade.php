@@ -7,89 +7,87 @@
     <div class="container">
         <div class="row">
             <div class="col">
-
-            <h1 class="register_welcome">Registration<h1>
+                <h1 class="register_welcome">Registration</h1>
                 <h2 class="register_welcome_note">After registration you can easily buy from our site</h2>
-            <div class="register_form_background">
-            <form id="regform" class="register_form" method = "post" action= "/user/successfulRegistration">
-            
+                <div class="register_form_background">
+                    <form id="regform" class="register_form" method = "post" action= "/user/successfulRegistration">
                         <div class="row">
                             <label for="rusername" class="col-sm-3 col-form-label">Username</label>
-                                <div class="col">
-                                    <input type="text"  class="form-control" id="rusername" name="username" required>
-                                </div>
+                            <div class="col">
+                                <input type="text"  class="form-control" id="rusername" name="username" required>
+                            </div>
                         </div>
 
                         <div class="row">
                             <label for="rpassword" class="col-sm-3 col-form-label">Password</label>
-                                <div class="col">
-                                    <input type="text"  class="form-control" id="rpassword" name="password" required>
-                                </div>
+                            <div class="col">
+                                <input type="text"  class="form-control" id="rpassword" name="password" required>
+                            </div>
                         </div>
 
                         <div class="row">
                             <label for="remail" class="col-sm-3 col-form-label">Email</label>
-                                <div class="col">
-                                    <input type="text"  class="form-control" id="remail" name="emailaddress" required>
-                                </div>
+                            <div class="col">
+                                <input type="text"  class="form-control" id="remail" name="email" required>
+                            </div>
                         </div>
 
                         <div class="row">
                             <label for="rfirstname" class="col-sm-3 col-form-label">First Name</label>
-                                <div class="col">
-                                    <input type="text"  class="form-control" id="rfirstname" name="firstname" required>
-                                </div>
+                            <div class="col">
+                                <input type="text"  class="form-control" id="rfirstname" name="first_name" required>
+                            </div>
                         </div>
 
                         <div class="row">
                             <label for="rlastname" class="col-sm-3 col-form-label">Last Name</label>
-                                <div class="col">
-                                    <input type="text"  class="form-control" id="rlastname" name="lastname" required>
-                                </div>
+                            <div class="col">
+                                <input type="text"  class="form-control" id="rlastname" name="last_name" required>
+                            </div>
                         </div>
 
                         <div class="row">
                             <label for="rbirthdate" class="col-sm-3 col-form-label">Birth Date</label>
-                                <div class="col">
-                                    <input type="text"  class="form-control" id="rbirthdate" name="birthdate" required>
-                                </div>
+                            <div class="col">
+                                <input type="text"  class="form-control" id="rbirthdate" name="birthdate" required>
+                            </div>
                         </div>
 
-                    <h1>Address</h1>
+                    <h1>Billing Address</h1>
 
                         <div class="row">
                             <label for="rcountry" class="col-sm-3 col-form-label">Country</label>
-                                <div class="col">
-                                    <input type="text"  class="form-control" id="rcountry" name="scountry" required>
-                                </div>
+                            <div class="col">
+                                <input type="text"  class="form-control" id="rcountry" name="bcountry" required>
+                            </div>
                         </div>
 
                         <div class="row">
                             <label for="rzipcode" class="col-sm-3 col-form-label">Zip Code</label>
-                                <div class="col">
-                                    <input type="text"  class="form-control" id="rzipcode" name="szipcode" required>
-                                </div>
+                            <div class="col">
+                                <input type="text"  class="form-control" id="rzipcode" name="bpost_code" required>
+                            </div>
                         </div>
 
                         <div class="row">
                             <label for="rcountry" class="col-sm-3 col-form-label">City</label>
-                                <div class="col">
-                                    <input type="text"  class="form-control" id="rcountry" name="scity" required>
-                                </div>
+                            <div class="col">
+                                <input type="text"  class="form-control" id="rcountry" name="bcity" required>
+                            </div>
                         </div>
 
                         <div class="row">
                             <label for="rstreet" class="col-sm-3 col-form-label">Street</label>
-                                <div class="col">
-                                    <input type="text"  class="form-control" id="rstreet" name="sstreet" required>
-                                </div>
+                            <div class="col">
+                                <input type="text"  class="form-control" id="rstreet" name="bstreet" required>
+                            </div>
                         </div>
 
                         <div class="row">
                             <label for="rhouse" class="col-sm-3 col-form-label">House</label>
-                                <div class="col">
-                                    <input type="text"  class="form-control" id="rhouse" name="shouse" required>
-                                </div>
+                            <div class="col">
+                                <input type="text"  class="form-control" id="rhouse" name="bhouse" required>
+                            </div>
                         </div>
 
                         <div class="row">
@@ -104,42 +102,42 @@
 <div id="register_billing_address">
                                 <div class="row">
                                     <label for="rcountry" class="col-sm-3 col-form-label">Country</label>
-                                        <div class="col">
-                                            <input type="text"  class="form-control" id="rcountry" name="scountry" required>
-                                        </div>
+                                    <div class="col">
+                                        <input type="text"  class="form-control" id="rcountry" name="scountry" required>
+                                    </div>
                                 </div>
 
                                 <div class="row">
                                     <label for="rzipcode" class="col-sm-3 col-form-label">Zip Code</label>
-                                        <div class="col">
-                                            <input type="text"  class="form-control" id="rzipcode" name="szipcode" required>
-                                        </div>
+                                    <div class="col">
+                                        <input type="text"  class="form-control" id="rzipcode" name="spost_code" required>
+                                    </div>
                                 </div>
 
                                 <div class="row">
                                     <label for="rcountry" class="col-sm-3 col-form-label">City</label>
-                                        <div class="col">
-                                            <input type="text"  class="form-control" id="rcountry" name="scity" required>
-                                        </div>
+                                    <div class="col">
+                                        <input type="text"  class="form-control" id="rcountry" name="scity" required>
+                                    </div>
                                 </div>
 
                                 <div class="row">
                                     <label for="rstreet" class="col-sm-3 col-form-label">Street</label>
-                                        <div class="col">
-                                            <input type="text"  class="form-control" id="rstreet" name="sstreet" required>
-                                        </div>
+                                    <div class="col">
+                                        <input type="text"  class="form-control" id="rstreet" name="sstreet" required>
+                                    </div>
                                 </div>
 
                                 <div class="row">
                                     <label for="rhouse" class="col-sm-3 col-form-label">House</label>
-                                        <div class="col">
-                                            <input type="text"  class="form-control" id="rhouse" name="shouse" required>
-                                        </div>
+                                    <div class="col">
+                                        <input type="text"  class="form-control" id="rhouse" name="shouse" required>
+                                    </div>
                                 </div>
 </div>
 
                         <div>
-                            @error("email")<br><div class="register_error"><p>{{ $errors->first('email') }}</p></div>@enderror
+                        
                             <br>
                             <input class="btn btn-primary" id="register_btn" type="submit" value="Register">
                         </div>
@@ -147,6 +145,9 @@
             </form>
             </div>
             </div>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
         </div>
     </div>
 </div>
