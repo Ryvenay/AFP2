@@ -10831,6 +10831,7 @@ body {
 .content-div {
   min-height: 100vh;
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .footer_div {
