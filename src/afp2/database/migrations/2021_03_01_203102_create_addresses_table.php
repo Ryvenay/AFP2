@@ -20,7 +20,7 @@ class CreateAddressesTable extends Migration
             $table->string('city');
             $table->string('street');
             $table->string('house');
-            $table->string('note');
+            $table->string('note')->nullable();
             $table->timestamp('updated_at')->nullable();
             $table->timestamp('created_at')->nullable();
         });
