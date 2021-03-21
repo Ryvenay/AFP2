@@ -5,13 +5,9 @@ $warning: #ee3b2d;
 $danger: #ee3b2d;
 $light: #ffffff;
 $dark: #1a202c;
-
 $enable-shadows: true;
 $box-shadow-sm: 0 .125rem .25rem rgba(#000, .400);
-
 @import "node_modules/bootstrap/scss/bootstrap";
-
-
 h2 {
     font-weight: lighter;
     text-align: center;
@@ -26,9 +22,8 @@ h2 {
 }
 
 //.login_error {}
-
 .icon {
-    height:20px;
+    height: 20px;
     width: auto;
 }
 
@@ -36,6 +31,7 @@ h2 {
     background-color: $primary;
     min-height: 100vh;
 }
+
 .navbar-nav {
     display: inline-flex;
     margin-top: 2px;
@@ -48,7 +44,6 @@ h2 {
 .nav-link {
     display: inline;
     color: $primary !important;
-
     .icon {
         fill: $primary;
         height: 25px;
@@ -59,7 +54,6 @@ h2 {
             color: $danger;
         }
     }
-
     .logo-icon {
         max-height: 35px;
         width: auto;
@@ -72,11 +66,9 @@ h2 {
         margin-top: -5px;
         margin-bottom: -5px;
     }
-
     &:hover {
         color: $danger !important;
     }
-    
 }
 
 body {
@@ -200,6 +192,45 @@ body {
 }
 
 //end register
+//product
+.product-background {
+    background-color: $secondary;
+    padding: 30px;
+    color: $primary;
+}
+
+.product-brand {
+    text-align: center;
+}
+
+.product-img {
+    max-height: 600px;
+    max-width: 600px;
+    width: 80%;
+    margin: auto;
+}
+
+.product-desc-box {
+    margin-top: 30%;
+    margin-bottom: auto;
+}
+
+#product-btn {
+    background-color: $warning;
+    color: $light;
+    border-color: transparent;
+}
+
+#quantity {
+    width: 30%;
+    min-width: 100px;
+}
+
+#product-to-cart {
+    min-width: 150px;
+}
+
+//end product 
 .card {
     img {
         max-width: 200px;
@@ -219,10 +250,8 @@ body {
     height: 400px;
     margin: 15px;
     margin-bottom: 10px;
-
     &:hover {
         border-color: $successs;
-        
     }
 }
 
@@ -249,16 +278,4 @@ body {
 .items {
     margin-left: auto;
     margin-right: auto;
-}
-
-.product-brand {
-    text-align: center;
-}
-
-.product-img {
-    max-height: 600px;
-    max-width: 600px;
-    height: auto;
-    width: auto;
-    margin: auto;
 }

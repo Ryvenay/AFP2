@@ -2,21 +2,30 @@
 
 @section('content')
 <div class="container">
+  <br>
   <h2>{{$product->name}}</h2>
   <p class="product-brand">{{$product->brand}} </p>
   <div class="row">
     <div class="col-md-8">
       <img src="{{asset($product->img)}}" class="product-img">
     </div>
-    <div class="col-md-4">
-      <p class="price">{{$product->price}} Ft</p>
-      <form method="post">
-        <div class="form-group">
-          <input type="number" class="form-control" id="quantity" value="1">
+      <div class="col-md-4" >
+        <div class="product-desc-box">
+          <div class="product-background">
+            <p class="price">{{$product->price}} Ft</p>
+            <form method="post" class="form-inline">
+              <div class="row">
+                <div class="col-4" id="product-to-cart">
+                  <input type="number" class="form-control" id="quantity" value="1">
+                </div>
+                <div class="col-5" id="product-to-cart">
+                  <button type="submit" class="btn btn-primary mb-2" id="product-btn">Add to cart</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
-        <button type="submit" class="btn btn-primary">Add to cart</button>
-      </form>
-    </div>
+      </div>
   </div>
 
 
