@@ -99,7 +99,7 @@ class Fill extends Migration
             'description' => 'Detailed description', 
             's_description' => 'It was designed to keep end-users productive.', 
             'price' => 200000, 
-            'category' => 'Laptop',
+            'category' => 'Computer',
             'updated_at' => now(),
             'created_at' => now(),
         ],
