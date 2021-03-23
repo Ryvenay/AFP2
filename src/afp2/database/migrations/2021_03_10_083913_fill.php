@@ -199,6 +199,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'HDMI 2.0', 
+            'brand' => 'Vention', 
+            'in_stock' => 50,
+            'img' => 'img/product/hdmi.jpg',
+            'description' => 'Detailed description', 
+            's_description' => 'High quality cable. Black, 2 metres long.', 
+            'price' => 1500, 
+            'category' => 'Tv Cables',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
