@@ -187,6 +187,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'Toner LaserJet 1018', 
+            'brand' => 'HP', 
+            'in_stock' => 12,
+            'img' => 'img/product/hp_toner.jpg',
+            'description' => 'Detailed description', 
+            's_description' => 'Toner with black ink for HP LaserJet printers.', 
+            'price' => 38000, 
+            'category' => 'Printer component',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
