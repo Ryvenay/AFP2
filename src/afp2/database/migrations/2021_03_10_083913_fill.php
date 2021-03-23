@@ -163,6 +163,30 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'P2719H Professional', 
+            'brand' => 'Dell', 
+            'in_stock' => 38,
+            'img' => 'img/product/dell_monitor.jpg',
+            'description' => 'Detailed description', 
+            's_description' => 'LCD LED monitor.DisplayPort, HDMI 1.4, VGA, USB.', 
+            'price' => 150000, 
+            'category' => 'Monitor',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
+        [
+            'name' => 'Galaxy Tab A', 
+            'brand' => 'Samsung', 
+            'in_stock' => 50,
+            'img' => 'img/product/samsung_tab.jpg',
+            'description' => 'Detailed description', 
+            's_description' => 'Samsung Galaxy Tab A is powered by a 1.2GHz quad-core processor. It comes with 2GB of RAM.', 
+            'price' => 80000, 
+            'category' => 'Tablet',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
