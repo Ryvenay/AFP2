@@ -1,13 +1,14 @@
-    var form = $('#regform'),
-        checkbox = $('#chbox'),
-        chShipBlock = $('#register_billing_address');
+function showMe(box) {
 
-    chShipBlock.hide();
-
-    checkbox.on('click', function() {
-        if ($(this).is(':checked')) {
-            chShipBlock.show();
-        } else {
-            chShipBlock.hide();
+    var chboxs = document.getElementsByName("c1");
+    var vis = "none";
+    for (var i = 0; i < chboxs.length; i++) {
+        if (chboxs[i].checked) {
+            vis = "block";
+            break;
         }
-    });
+    }
+    document.getElementById(box).style.display = vis;
+
+
+}
