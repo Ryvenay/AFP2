@@ -72,7 +72,7 @@ class Fill extends Migration
             'brand' => 'Philips', 
             'in_stock' => 32,
             'img' => 'img/product/remote_c.jpg',
-            'description' => 'Detailed description', 
+            'description' => 'Comfortable handle, easy to use.Long range, stable performance.This is a special replacement remote control, it covers all the functions of the original remote control.', 
             's_description' => 'Brand new remote control for Philips TV-s.Silicone rubber button. 30 Days Money Back Guarantee.', 
             'price' => 4999, 
             'category' => 'Television accessory',
