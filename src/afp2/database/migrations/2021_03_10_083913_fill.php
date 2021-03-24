@@ -204,7 +204,7 @@ class Fill extends Migration
             'brand' => 'Vention', 
             'in_stock' => 50,
             'img' => 'img/product/hdmi.jpg',
-            'description' => 'Detailed description', 
+            'description' => 'This HDMI to HDMI male cable also support Mirror and Extended mode. In mirror mode, you can enjoy the big screen home theater at home! The ideal solution to enjoy ultra high definition image and video with your family and friends. While in extended mode, your computer interprets the monitors that you are extending as separate devices. You can see different things on each monitor, excellent for save the time and improve work efficiency.', 
             's_description' => 'High quality cable. Black, 2 metres long.', 
             'price' => 1500, 
             'category' => 'Tv Cables',
