@@ -153,10 +153,32 @@ body {
 }
 
 .login_form {
-    padding-top: 70px;
+    margin: 70px;
 }
 
 //end login
+//404 
+.error_404_background {
+    background-color: $primary;
+    min-height: 100vh;
+}
+
+.error_404_sign {
+    color: $secondary;
+    margin: auto;
+}
+
+//end 404
+//forgot page
+#never {
+    align-items: stretch;
+}
+
+#video_never {
+    max-width: 100vw;
+}
+
+//end forogot page
 //register
 .register_background {
     background-color: $primary;
@@ -189,6 +211,26 @@ body {
     font-weight: bold;
     border-color: transparent;
     width: 100%;
+}
+
+.register_h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#register_row_padding {
+    padding-top: 10px;
+}
+
+#lbl_padding {
+    text-align: center;
+}
+
+#address_separator_padding {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 4%;
 }
 
 //end register
