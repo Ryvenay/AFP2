@@ -108,7 +108,7 @@ class Fill extends Migration
             'brand' => 'HP', 
             'in_stock' => 19,
             'img' => 'img/product/hp_printer.jpg',
-            'description' => 'Detailed description', 
+            'description' => 'Print speed letter: Up to 23 ppm (black). 150-sheet input tray, Wi-Fi Direct. Uses toner with JetIntelligence. Helps save energy with HP Auto-On/Auto-Off Technology. Easily manage tasks directly at the printer. The 2-line LCD display is simple to read and operate.', 
             's_description' => 'Print, copy, scan, fax, dual band wireless. Simple set-up.', 
             'price' => 250000, 
             'category' => 'Printer',
