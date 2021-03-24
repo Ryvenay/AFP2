@@ -180,7 +180,7 @@ class Fill extends Migration
             'brand' => 'Samsung', 
             'in_stock' => 50,
             'img' => 'img/product/samsung_tab.jpg',
-            'description' => 'Detailed description', 
+            'description' => 'It has a great screen and speakers, and it’s thin and light enough to hold for extended watching sessions.The 16:10 screen ratio is designed for an immersive viewing experience both in portrait and landscape mode. It comes bundled with a free YouTube Premium subscription so your favorite videos keep playing ad-free and uninterrupted. The dual speakers are designed to provide enriched sound quality while seamlessly merging with the sleek design. There are cameras on the front and back, including a dual-camera setup on the rear with a standard camera and an ultrawide option.', 
             's_description' => 'Samsung Galaxy Tab A is powered by a 1.2GHz quad-core processor. It comes with 2GB of RAM.', 
             'price' => 80000, 
             'category' => 'Tablet',
