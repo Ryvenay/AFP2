@@ -96,7 +96,7 @@ class Fill extends Migration
             'brand' => 'Dell', 
             'in_stock' => 40,
             'img' => 'img/product/dell_laptop.jpg',
-            'description' => 'Detailed description', 
+            'description' => 'It offers more options of ports, storage and connectivity than any other Latitude, while maintaining the promise of the world’s most secure and manageable laptop with outstanding reliability.', 
             's_description' => 'It was designed to keep end-users productive.', 
             'price' => 200000, 
             'category' => 'Computer',
