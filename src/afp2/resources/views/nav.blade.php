@@ -81,6 +81,9 @@
                         <li class="dropdown-item">
                             <a class="nav-link" href="/register">Register</a>
                         </li>
+                        <li class="dropdown-item">
+                            <a class="nav-link" href="/faq">FAQ</a>
+                        </li>
                         @endguest
                     </ul>
                 </li>
