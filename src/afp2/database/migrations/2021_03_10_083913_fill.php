@@ -216,7 +216,7 @@ class Fill extends Migration
             'brand' => 'Sony', 
             'in_stock' => 14,
             'img' => 'img/product/sony_camera.jpg',
-            'description' => 'Detailed description', 
+            'description' => 'Its blistering speed and autofocus performance are impressive, and matched only by its phenomenal connectivity, which promises to be a game changer for pro shooters. The big advantage that you get with the Hdr-Cx240 EB is the built-in optical stabilisation.', 
             's_description' => 'It has Sonys latest autofocus system, with fast processing and face/eye/animal detection.', 
             'price' => 230000, 
             'category' => 'Photo, Video',
