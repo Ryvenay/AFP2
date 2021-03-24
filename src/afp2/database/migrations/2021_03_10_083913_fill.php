@@ -223,6 +223,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'X-Bee', 
+            'brand' => 'Overmax', 
+            'in_stock' => 23,
+            'img' => 'img/product/overmax_drone.jpg',
+            'description' => 'Detailed description', 
+            's_description' => 'With a lot of smart functions and GPS. Its camera can rotate in 90 degrees.', 
+            'price' => 54500, 
+            'category' => 'Drons',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
