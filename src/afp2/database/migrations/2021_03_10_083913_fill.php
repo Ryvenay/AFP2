@@ -84,7 +84,7 @@ class Fill extends Migration
             'brand' => 'Sony', 
             'in_stock' => 32,
             'img' => 'img/product/sony_TV.jpg',
-            'description' => 'Detailed description', 
+            'description' => 'Zones of LEDs lit or dimmed independently for realistic brightness and shadow detail. Take pictures closer to 8K with 8K X-Reality™ PRO. Sound in harmony with picture for an immersive experience.', 
             's_description' => 'Cognitive Processor XR™ understands how humans see and hear for true immersion.', 
             'price' => 99999, 
             'category' => 'Television',
