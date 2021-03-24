@@ -120,7 +120,7 @@ class Fill extends Migration
             'brand' => 'Intel', 
             'in_stock' => 28,
             'img' => 'img/product/network_card.jpg',
-            'description' => 'Detailed description', 
+            'description' => 'This Network Interface Card from Intel is ideal for connecting your server to your network. The Gigabit Dual Port Server Adapter proven to be reliable and standards-based solutions. This product has been tested and validated on several systems.', 
             's_description' => 'Gigabit Ethernet Adapters (up to 2.5GbE). On-chip QoS and Traffic Management. Flexible Port Partitioning.', 
             'price' => 10000, 
             'category' => 'Computer component',
