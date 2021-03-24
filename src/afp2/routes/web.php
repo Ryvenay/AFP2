@@ -38,3 +38,8 @@ Route::get('/login', [UserController::class, 'login']);
 Route::post('/', [UserController::class, 'authenticate']);
 Route::get('/logout', [UserController::class, 'logout']);
 Route::get('/profile', [UserController::class, 'profile']);
+
+
+Route::get('/forgotpsw', function(){
+    return view('users.forgot_password'); 
+});
