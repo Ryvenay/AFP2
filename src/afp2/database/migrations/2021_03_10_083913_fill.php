@@ -211,6 +211,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'Hdr-Cx240 EB camera', 
+            'brand' => 'Sony', 
+            'in_stock' => 14,
+            'img' => 'img/product/sony_camera.jpg',
+            'description' => 'Detailed description', 
+            's_description' => 'It has Sonys latest autofocus system, with fast processing and face/eye/animal detection.', 
+            'price' => 230000, 
+            'category' => 'Photo, Video',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
