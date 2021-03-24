@@ -228,7 +228,7 @@ class Fill extends Migration
             'brand' => 'Overmax', 
             'in_stock' => 23,
             'img' => 'img/product/overmax_drone.jpg',
-            'description' => 'Detailed description', 
+            'description' => 'You can set up the speed of flying. It keeps the height automatically. There is an additional sensor which protect you from losing the drone. If this is too far from you this sensor will make it turn back.', 
             's_description' => 'With a lot of smart functions and GPS. Its camera can rotate in 90 degrees.', 
             'price' => 54500, 
             'category' => 'Drons',
