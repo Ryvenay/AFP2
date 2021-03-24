@@ -45,9 +45,9 @@
                     <p>On this page, you can login or register to our webshop.</p>
                 </div>
                 <div class="col-md-6">
-                    <input class="btn btn-primary" id="login_forgot_btn" type="submit" value="Forgot password">
+                    <a id="login_forgot_btn" class="btn btn-primary" href="/forgotpsw" role="button">Forgot password</a>
                     <br>
-                    <input class="btn btn-primary" id="login_register_btn" type="submit" value="Register">
+                    <input class="btn btn-primary" id="login_register_btn" type="submit" value="Register"></button>
                 </div>
                 <br>
             </div>
