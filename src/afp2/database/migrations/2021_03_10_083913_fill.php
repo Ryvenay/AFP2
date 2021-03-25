@@ -240,7 +240,10 @@ class Fill extends Migration
             'brand' => 'OXO', 
             'in_stock' => 10,
             'img' => 'img/product/oxo_coffee.jpg',
-            'description' => '', 
+            'description' => 'Microprocessor controlled brew cycle replicates the pour over method to produce 2 to 9 cups of SCA certified perfect Coffee
+            Water is heated and held at the perfect temperature for Coffee (197.6 to 204.8 degrees Fahrenheit)
+            Rainmaker shower head evenly disperses water over Coffee grounds for uniform saturation and full flavor extraction
+            Intuitive LED interface features a backlit screen that displays the Coffee maker status and freshness indicator.', 
             's_description' => 'Double walled carafe keeps your brew hot and fresh. Voltage is 120Volt/60Hertz.', 
             'price' => 55000, 
             'category' => 'Kitchen equipments',
