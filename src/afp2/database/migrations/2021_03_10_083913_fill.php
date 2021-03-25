@@ -235,6 +235,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'Brew 9 Cup Coffee Maker', 
+            'brand' => 'OXO', 
+            'in_stock' => 10,
+            'img' => 'img/product/oxo_coffee.jpg',
+            'description' => '', 
+            's_description' => 'Double walled carafe keeps your brew hot and fresh. Voltage is 120Volt/60Hertz.', 
+            'price' => 55000, 
+            'category' => 'Kitchen equipments',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
