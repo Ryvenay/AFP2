@@ -292,7 +292,7 @@ class Fill extends Migration
             'in_stock' => 68,
             'img' => 'img/product/acer_mouse.jpg',
             'description' => '', 
-            's_description' => 'The best accessory for your Acer laptop.', 
+            's_description' => 'The best accessory for your Acer laptop.Height: 27.7 mm, Width: 56.4 mm, Depth: 109 mm', 
             'price' => 4200, 
             'category' => 'Batterys',
             'updated_at' => now(),
