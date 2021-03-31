@@ -274,6 +274,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'CopperTop AA Alkaline Batteries', 
+            'brand' => 'Duracell', 
+            'in_stock' => 50,
+            'img' => 'img/product/duracell_battery.jpg',
+            'description' => '', 
+            's_description' => '', 
+            'price' => 3600, 
+            'category' => 'Batterys',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
