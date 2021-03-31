@@ -290,7 +290,7 @@ class Fill extends Migration
             'name' => 'AMR 910 Wireless Mouse', 
             'brand' => 'Acer', 
             'in_stock' => 68,
-            'img' => '',
+            'img' => 'img/product/acer_mouse.jpg',
             'description' => '', 
             's_description' => 'The best accessory for your Acer laptop.', 
             'price' => 4200, 
