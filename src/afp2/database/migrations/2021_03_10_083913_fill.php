@@ -262,6 +262,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'NW-E393 Series Walkman 4GB MP3', 
+            'brand' => 'Sony', 
+            'in_stock' => 12,
+            'img' => 'img/product/sony_walkman.jpg',
+            'description' => 'High-Resolution Audio compatible. 128 GB built-in memory. Up to 33 hours playback. ø0.17" Balanced Standard Plug. BLUETOOTH® Receiver function. Digital noise cancelation and Ambient Sound Mode.', 
+            's_description' => 'Supported by Android™, Wi-Fi compatible.', 
+            'price' => 34500, 
+            'category' => 'Mediaplayers',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
