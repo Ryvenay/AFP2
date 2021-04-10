@@ -14,9 +14,10 @@
           <div class="product-background">
             <p class="price">{{$product->price}} Ft</p>
             <form method="post" class="form-inline">
+              @csrf
               <div class="row">
                 <div class="col-4" id="product-to-cart">
-                  <input type="number" class="form-control" id="quantity" value="1">
+                  <input type="number" class="form-control" id="quantity" name="quantity" value="1">
                 </div>
                 <div class="col-5" id="product-to-cart">
                   <button type="submit" class="btn btn-primary mb-2" id="product-btn">Add to cart</button>
