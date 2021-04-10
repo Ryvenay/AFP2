@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\CartController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,6 +31,8 @@ Route::get('/products/{product}', [ProductController::class, 'show']);
 Route::put('/products/{product}', [ProductController::class, 'update']);
 Route::delete('/products/{product}', [ProductController::class, 'delete']);
 
+Route::post('/products/{product}', [CartController::class, 'addToCart']);
+
 
 Route::get('/user', [UserController::class, 'index']);
 Route::get('/register', [UserController::class, 'register']);
@@ -38,6 +41,8 @@ Route::get('/login', [UserController::class, 'login']);
 Route::post('/', [UserController::class, 'authenticate']);
 Route::get('/logout', [UserController::class, 'logout']);
 Route::get('/profile', [UserController::class, 'profile']);
+
+Route::get('/cart', [CartController::class, 'index']);
 
 
 Route::get('/forgotpsw', function(){
