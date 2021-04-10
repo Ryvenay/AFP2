@@ -9,12 +9,12 @@ class Cart extends Model
 {
     use HasFactory;
 
-    public function UserId()
+    public function User()
     {
         return $this->hasOne(User::class,'id','user_id');
     }
 
-    public function ProductId()
+    public function Product()
     {
         return $this->hasOne(Product::class,'id','product_id');
     }
