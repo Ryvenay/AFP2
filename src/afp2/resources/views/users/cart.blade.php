@@ -4,6 +4,13 @@
 
 <h2>Your cart</h2>
 
+@guest
+<div class="alert alert-danger" role="alert">
+  Please log in to view your cart
+</div>
+@endguest
+
+@auth
 <div class="container">
     <table class="table">
     <thead>
@@ -17,10 +24,19 @@
     </thead>
     <tbody>
 
+    @php
+        $counter = 0;
+        $total = 0;
+    @endphp
+    
     @foreach($cart as $cartitem)
+        @php
+            $counter += $cartitem->amount;
+            $total += $cartitem->amount * $cartitem->product->price;
+        @endphp
 
         <tr>
-            <th scope="row">{{ $loop->index}}</th>
+            <th scope="row">{{ $loop->index + 1 }}</th>
             <td>{{ $cartitem->product->brand }} {{ $cartitem->product->name }}</td>
             <td>{{ $cartitem->amount }}</td>
             <td>{{ $cartitem->amount * $cartitem->product->price }}</td>
@@ -33,7 +49,18 @@
         </tr>
     @endforeach
     </tbody>
+    <tfoot>
+        <tr>
+            <td></td>
+            <td>Total: </td>
+            <td>{{ $counter }}</td>
+            <td>{{ $total }}</td>
+            <td></td>
+        </tr>
+    </tfoot>
     </table>
 </div>
+
+@endauth
 
 @endsection
