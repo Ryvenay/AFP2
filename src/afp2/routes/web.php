@@ -37,12 +37,12 @@ Route::post('/products/{product}', [CartController::class, 'addToCart']);
 Route::get('/user', [UserController::class, 'index']);
 Route::get('/register', [UserController::class, 'register']);
 Route::post('/user/successfulRegistration', [UserController::class, 'save']);
-Route::get('/login', [UserController::class, 'login']);
+Route::get('/login', [UserController::class, 'login'])->name('login');;
 Route::post('/', [UserController::class, 'authenticate']);
 Route::get('/logout', [UserController::class, 'logout']);
 Route::get('/profile', [UserController::class, 'profile']);
 
-Route::get('/cart', [CartController::class, 'index']);
+Route::get('/cart', [CartController::class, 'index'])->middleware('auth');
 
 
 Route::get('/forgotpsw', function(){
