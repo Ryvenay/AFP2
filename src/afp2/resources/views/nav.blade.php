@@ -17,9 +17,9 @@
                             Computer
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/product">Computers</a></li>
-                            <li><a class="dropdown-item" href="#">Components</a></li>
-                            <li><a class="dropdown-item" href="#">Monitors</a></li>
+                            <li><a class="dropdown-item" href="/computer">Computers</a></li>
+                            <li><a class="dropdown-item" href="/c_component">Components</a></li>
+                            <li><a class="dropdown-item" href="/monitor">Monitors</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -27,9 +27,9 @@
                             Notebooks, Tablets
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Notebook</a></li>
-                            <li><a class="dropdown-item" href="#">Tablet</a></li>
-                            <li><a class="dropdown-item" href="#">Accessories</a></li>
+                            <li><a class="dropdown-item" href="/notebook">Notebook</a></li>
+                            <li><a class="dropdown-item" href="/tablet">Tablet</a></li>
+                            <li><a class="dropdown-item" href="/accessory">Accessories</a></li>
                         </ul>
                     </li>>
                     <li class="nav-item dropdown">
@@ -37,9 +37,9 @@
                             Printers
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Printers</a></li>
-                            <li><a class="dropdown-item" href="#">Props</a></li>
-                            <li><a class="dropdown-item" href="#">Components</a></li>
+                            <li><a class="dropdown-item" href="/printer">Printers</a></li>
+                            <li><a class="dropdown-item" href="/prop">Props</a></li>
+                            <li><a class="dropdown-item" href="/p_component">Components</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -47,9 +47,9 @@
                             Telephone
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Smartphone</a></li>
-                            <li><a class="dropdown-item" href="#">Landline</a></li>
-                            <li><a class="dropdown-item" href="#">Classic phones</a></li>
+                            <li><a class="dropdown-item" href="/smarthpone">Smartphone</a></li>
+                            <li><a class="dropdown-item" href="/landline">Landline</a></li>
+                            <li><a class="dropdown-item" href="/phone">Classic phones</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -57,13 +57,13 @@
                             Entertainment
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Television</a></li>
-                            <li><a class="dropdown-item" href="#">TV accessories</a></li>
+                            <li><a class="dropdown-item" href="/television">Television</a></li>
+                            <li><a class="dropdown-item" href="/tv_accesory">TV accessories</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Photo, video</a></li>
-                            <li><a class="dropdown-item" href="#">Media players</a></li>
+                            <li><a class="dropdown-item" href="/photo">Photo, video</a></li>
+                            <li><a class="dropdown-item" href="/media">Media players</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Drones</a></li>
+                            <li><a class="dropdown-item" href="/drone">Drones</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -71,9 +71,9 @@
                             Home appliance
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Kitchen appliances</a></li>
-                            <li><a class="dropdown-item" href="#">Smarthome devices</a></li>
-                            <li><a class="dropdown-item" href="#">Accessories</a></li>
+                            <li><a class="dropdown-item" href="/applianc">Kitchen appliances</a></li>
+                            <li><a class="dropdown-item" href="/smartphone_device">Smarthome devices</a></li>
+                            <li><a class="dropdown-item" href="/k_accessory">Accessories</a></li>
                         </ul>
                     </li>
                 </ul>
