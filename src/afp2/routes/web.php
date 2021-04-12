@@ -60,6 +60,7 @@ Route::get('/faq', function() {
 });
 
 
+
 Route::get('/products/{product}/edit', [ProductController::class, 'edit']);
 Route::get('/products/{product}', [ProductController::class, 'show']);
 Route::put('/products/{product}', [ProductController::class, 'update']);
