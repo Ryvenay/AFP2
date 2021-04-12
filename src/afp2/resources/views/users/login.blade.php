@@ -47,7 +47,7 @@
                 <div class="col-md-6">
                     <a id="login_forgot_btn" class="btn btn-primary" href="/forgotpsw" role="button">Forgot password</a>
                     <br>
-                    <input class="btn btn-primary" id="login_register_btn" type="submit" value="Register"></button>
+                    <a href="/register"><input class="btn btn-primary" id="login_register_btn" type="submit" value="Register"></button></a>
                 </div>
                 <br>
             </div>
