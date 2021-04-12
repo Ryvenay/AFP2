@@ -24,9 +24,8 @@ Route::get('/laravel', function () {
 Route::get('/', [HomepageController::class, 'show']);
 
 Route::get('/products', [ProductController::class, 'index']);
-Route::get('/products/create', [ProductController::class, 'create']);
+Route::get('/products/addProduct', [ProductController::class, 'create']);
 Route::post('/products', [ProductController::class, 'save']);
-
 
 
 Route::get('/computer',  [ProductController::class, 'showComputers']);
@@ -56,7 +55,7 @@ Route::get('/smarthome_device',  [ProductController::class, 'showSmarthomeDevice
 Route::get('/k_accessory',  [ProductController::class, 'showHomeAccessories']);
 
 Route::get('/faq', function() {
-    return view('users.faq');
+    return view('users.faq', [ProductController::class, 'showHomeAccessories']);
 });
 
 
