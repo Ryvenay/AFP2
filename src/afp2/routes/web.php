@@ -39,21 +39,21 @@ Route::get('/accessory',  [ProductController::class, 'showTabletAccessories']);
 
 Route::get('/printer',  [ProductController::class, 'showPrinters']);
 Route::get('/prop',  [ProductController::class, 'showPrinterProps']);
-Route::get('/p_components',  [ProductController::class, 'showPrinterComponents']);
+Route::get('/p_component',  [ProductController::class, 'showPrinterComponents']);
 
 Route::get('/smartphone',  [ProductController::class, 'showSmartphones']);
 Route::get('/landline',  [ProductController::class, 'showLandlinePhones']);
 Route::get('/phone',  [ProductController::class, 'showClassicPhones']);
 
-Route::get('/television',  [ProductController::class, 'showTelevision']);
-Route::get('/tv_accessory',  [ProductController::class, 'showTvAccerrories']);
+Route::get('/television',  [ProductController::class, 'showTelevisions']);
+Route::get('/tv_accessory',  [ProductController::class, 'showTvAccessories']);
 Route::get('/photo',  [ProductController::class, 'showPhoto']);
 Route::get('/media',  [ProductController::class, 'showMedia']);
 Route::get('/drone',  [ProductController::class, 'showDrones']);
 
 Route::get('/appliance',  [ProductController::class, 'showKitchenAppliances']);
 Route::get('/smarthome_device',  [ProductController::class, 'showSmarthomeDevices']);
-Route::get('/k_accessories',  [ProductController::class, 'showHomeAccessories']);
+Route::get('/k_accessory',  [ProductController::class, 'showHomeAccessories']);
 
 Route::get('/faq', function() {
     return view('users.faq');

@@ -130,7 +130,7 @@ class ProductController extends Controller
         ]);
     }
 
-    public static function showPrintes() {
+    public static function showPrinters() {
         $products = Product::where('category', 'Printer')->get();
 
         return view('products.list', [
