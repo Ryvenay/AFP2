@@ -3,6 +3,7 @@
 
 <div class="container items">
   <div class="row justify-content-md-center">
+  <h2>{{$title}}</h2>
 
     @if(count($products) === 0)
 

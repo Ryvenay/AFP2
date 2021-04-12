@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Product;
+use Illuminate\Support\Facades\Auth;
 
 class ProductController extends Controller
 {
@@ -19,11 +20,17 @@ class ProductController extends Controller
     public function show(Product $product) {
 
         return view('products.product', [
+            'title' => "All product",
             'product' => $product
         ]);
     }
 
     public function create() {
+
+        if(Auth::user()->level < 0) {
+            return redirect('home');
+        }
+
         return view ('products.create');
     }
 
@@ -81,11 +88,15 @@ class ProductController extends Controller
         return Product::get()->random(4);
     }
 
+    //-----------------------------------------------------
+    // Category routes
+    //-----------------------------------------------------
 
     public static function showComputers() {
         $products = Product::where('category', 'Computer')->get();
 
         return view('products.list', [
+            'title' => 'Computers',
             'products' => $products
         ]);
     }
@@ -94,6 +105,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'Computer component')->get();
 
         return view('products.list', [
+            'title' => 'Computer components',
             'products' => $products
         ]);
     }
@@ -102,6 +114,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'Monitor')->get();
 
         return view('products.list', [
+            'title' => 'Monitors',
             'products' => $products
         ]);
     }
@@ -110,14 +123,16 @@ class ProductController extends Controller
         $products = Product::where('category', 'Notebook')->get();
 
         return view('products.list', [
+            'title' => 'Notebooks',
             'products' => $products
         ]);
     }
 
-    public static function showTablet() {
+    public static function showTablets() {
         $products = Product::where('category', 'Tablet')->get();
 
         return view('products.list', [
+            'title' => 'Tablets',
             'products' => $products
         ]);
     }
@@ -126,6 +141,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'Television accessory')->get();
 
         return view('products.list', [
+            'title' => 'Notebook, tablet accessories',
             'products' => $products
         ]);
     }
@@ -134,6 +150,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'Printer')->get();
 
         return view('products.list', [
+            'title' => 'Printers',
             'products' => $products
         ]);
     }
@@ -142,6 +159,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'Printer prop')->get();
 
         return view('products.list', [
+            'title' => 'Printer props',
             'products' => $products
         ]);
     }
@@ -151,6 +169,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'Computer component')->get();
 
         return view('products.list', [
+            'title' => 'Printer components',
             'products' => $products
         ]);
     }
@@ -159,6 +178,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'Smart Phone')->get();
 
         return view('products.list', [
+            'title' => 'Smartphones',
             'products' => $products
         ]);
     }
@@ -168,6 +188,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'landline')->get();
 
         return view('products.list', [
+            'title' => 'Landline phones',
             'products' => $products
         ]);
     }
@@ -176,6 +197,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'classicphone')->get();
 
         return view('products.list', [
+            'title' => 'Classic phones',
             'products' => $products
         ]);
     }
@@ -184,6 +206,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'television')->get();
 
         return view('products.list', [
+            'title' => 'Televisions',
             'products' => $products
         ]);
     }
@@ -192,6 +215,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'tvaccessory')->get();
 
         return view('products.list', [
+            'title' => 'TV accessories',
             'products' => $products
         ]);
     }
@@ -200,6 +224,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'photo')->get();
 
         return view('products.list', [
+            'title' => 'Photo, video',
             'products' => $products
         ]);
     }
@@ -208,6 +233,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'media')->get();
 
         return view('products.list', [
+            'title' => 'Media',
             'products' => $products
         ]);
     }
@@ -216,14 +242,16 @@ class ProductController extends Controller
         $products = Product::where('category', 'drone')->get();
 
         return view('products.list', [
+            'title' => 'Drones',
             'products' => $products
         ]);
     }
 
     public static function showKitchenAppliances() {
-        $products = Product::where('category', 'kitchenappliance')->get();
+        $products = Product::where('category', 'Kitchen equipment')->get();
 
         return view('products.list', [
+            'title' => 'Kitchen appliances',
             'products' => $products
         ]);
     }
@@ -232,6 +260,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'smarthomedevice')->get();
 
         return view('products.list', [
+            'title' => 'Smart home devices',
             'products' => $products
         ]);
     }
@@ -240,6 +269,7 @@ class ProductController extends Controller
         $products = Product::where('category', 'homeaccessory')->get();
 
         return view('products.list', [
+            'title' => 'Home accessories',
             'products' => $products
         ]);
     }

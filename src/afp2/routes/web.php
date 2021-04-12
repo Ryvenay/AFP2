@@ -21,7 +21,7 @@ Route::get('/laravel', function () {
     return view('welcome');
 });
 
-Route::get('/', [HomepageController::class, 'show']);
+Route::get('/', [HomepageController::class, 'show'])->name('home');
 
 Route::get('/products', [ProductController::class, 'index']);
 Route::get('/addProduct', [ProductController::class, 'create']);
@@ -34,7 +34,7 @@ Route::get('/c_component',  [ProductController::class, 'showComputerComponents']
 Route::get('/monitor',  [ProductController::class, 'showMonitors']);
 
 Route::get('/notebook',  [ProductController::class, 'showNotebooks']);
-Route::get('/tablet',  [ProductController::class, 'showTablet']);
+Route::get('/tablet',  [ProductController::class, 'showTablets']);
 Route::get('/accessory',  [ProductController::class, 'showTabletAccessories']);
 
 Route::get('/printer',  [ProductController::class, 'showPrinters']);
