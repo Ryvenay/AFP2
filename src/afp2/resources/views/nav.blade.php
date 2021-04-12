@@ -71,8 +71,8 @@
                             Home appliance
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/applianc">Kitchen appliances</a></li>
-                            <li><a class="dropdown-item" href="/smartphone_device">Smarthome devices</a></li>
+                            <li><a class="dropdown-item" href="/appliance">Kitchen appliances</a></li>
+                            <li><a class="dropdown-item" href="/smarthome_device">Smarthome devices</a></li>
                             <li><a class="dropdown-item" href="/k_accessory">Accessories</a></li>
                         </ul>
                     </li>

@@ -27,8 +27,10 @@ Route::get('/products', [ProductController::class, 'index']);
 Route::get('/products/create', [ProductController::class, 'create']);
 Route::post('/products', [ProductController::class, 'save']);
 
+
+
 Route::get('/computer',  [ProductController::class, 'showComputers']);
-Route::get('/c_components',  [ProductController::class, 'showComputerComponents']);
+Route::get('/c_component',  [ProductController::class, 'showComputerComponents']);
 Route::get('/monitor',  [ProductController::class, 'showMonitors']);
 
 Route::get('/notebook',  [ProductController::class, 'showNotebooks']);
