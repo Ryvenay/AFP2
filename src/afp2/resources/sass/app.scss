@@ -219,6 +219,10 @@ body {
     text-align: center;
 }
 
+.padding_bottom {
+    margin-bottom: 20px;
+}
+
 #register_row_padding {
     padding-top: 10px;
 }
@@ -234,6 +238,38 @@ body {
 }
 
 //end register
+//profile
+.profile_pic {
+    align-items: center;
+    text-align: center;
+}
+
+.profile_hr {
+    text-align: center;
+}
+
+.profile_address_background {
+    background-color: $secondary;
+    color: $light;
+}
+
+.profile_info {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.profile_info_2 {
+    text-align: center;
+    padding-top: 20%;
+}
+
+.profile_hr_address {
+    color: $primary;
+    width: 80%;
+    margin: auto;
+}
+
+//end profile
 //product
 .product-background {
     background-color: $secondary;
