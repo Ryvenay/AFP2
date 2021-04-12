@@ -10963,6 +10963,10 @@ body {
   text-align: center;
 }
 
+.padding_bottom {
+  margin-bottom: 20px;
+}
+
 #register_row_padding {
   padding-top: 10px;
 }
@@ -10975,6 +10979,36 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 4%;
+}
+
+.profile_pic {
+  align-items: center;
+  text-align: center;
+}
+
+.profile_hr {
+  text-align: center;
+}
+
+.profile_address_background {
+  background-color: #2d3749;
+  color: #ffffff;
+}
+
+.profile_info {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.profile_info_2 {
+  text-align: center;
+  padding-top: 20%;
+}
+
+.profile_hr_address {
+  color: #a4bdcd;
+  width: 80%;
+  margin: auto;
 }
 
 .product-background {
