@@ -40,7 +40,7 @@ class UserController extends Controller
         ]);
     }
 
-    public function userList(){
+    public function listUsers(){
         return view('users.userList',[
             "user" => User::all()
         ]);
@@ -135,10 +135,10 @@ class UserController extends Controller
 
     public function saveShippingAddress(Request $request) {
         $address = Address::create([
-            'country' => $request->input('bcountry'),
-            'post_code' => $request->input('bpost_code'),
-            'city' => $request->input('bcity'),
-            'street' => $request->input('bstreet'),
+            'country' => $request->input('scountry'),
+            'post_code' => $request->input('spost_code'),
+            'city' => $request->input('scity'),
+            'street' => $request->input('sstreet'),
             'house' => $request->input('shouse'),
             'note' => $request->input('note')
         ]);

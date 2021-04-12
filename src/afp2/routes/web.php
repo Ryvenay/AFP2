@@ -69,6 +69,8 @@ Route::delete('/products/{product}', [ProductController::class, 'delete']);
 Route::post('/products/{product}', [CartController::class, 'addToCart']);
 
 
+Route::get('/users', [UserController::class, 'listUsers']);
+
 Route::get('/user', [UserController::class, 'index']);
 Route::get('/register', [UserController::class, 'register']);
 Route::post('/user/successfulRegistration', [UserController::class, 'save']);
