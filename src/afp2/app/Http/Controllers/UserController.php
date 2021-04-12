@@ -34,6 +34,18 @@ class UserController extends Controller
         return view('users.login');
     }
 
+    public function profile() {
+        return view('users.profile',[
+            "user" => Auth::user()
+        ]);
+    }
+
+    public function userList(){
+        return view('users.userList',[
+            "user" => User::all()
+        ]);
+    }
+
     public function logout(Request $request) {  
         Auth::logout();
 
