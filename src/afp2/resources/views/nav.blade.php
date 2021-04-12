@@ -47,7 +47,7 @@
                             Telephone
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/smarthpone">Smartphone</a></li>
+                            <li><a class="dropdown-item" href="/smartphone">Smartphone</a></li>
                             <li><a class="dropdown-item" href="/landline">Landline</a></li>
                             <li><a class="dropdown-item" href="/phone">Classic phones</a></li>
                         </ul>
@@ -58,7 +58,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/television">Television</a></li>
-                            <li><a class="dropdown-item" href="/tv_accesory">TV accessories</a></li>
+                            <li><a class="dropdown-item" href="/tv_accessory">TV accessories</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="/photo">Photo, video</a></li>
                             <li><a class="dropdown-item" href="/media">Media players</a></li>
