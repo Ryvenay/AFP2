@@ -137,10 +137,11 @@
                                 </div>
                             </div>
 
-                        <div>
+                        <div class="padding_bottom">
                         
                             <br>
                             <input class="btn btn-primary" id="register_btn" type="submit" value="Register">
+                            
                         </div>
                         @csrf
             </form>
