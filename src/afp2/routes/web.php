@@ -53,9 +53,9 @@ Route::get('/appliance',  [ProductController::class, 'showKitchenAppliances']);
 Route::get('/smarthome_device',  [ProductController::class, 'showSmarthomeDevices']);
 Route::get('/k_accessories',  [ProductController::class, 'showHomeAccessories']);
 
-Route::get('/faq' function() {
-    return view('users.faw');
-})
+Route::get('/faq', function() {
+    return view('users.faq');
+});
 
 
 Route::get('/products/{product}/edit', [ProductController::class, 'edit']);
