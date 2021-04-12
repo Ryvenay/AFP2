@@ -24,9 +24,10 @@ Route::get('/laravel', function () {
 Route::get('/', [HomepageController::class, 'show']);
 
 Route::get('/products', [ProductController::class, 'index']);
-Route::get('/products/addProduct', [ProductController::class, 'create']);
+Route::get('/addProduct', [ProductController::class, 'create']);
 Route::post('/products', [ProductController::class, 'save']);
 
+//
 
 Route::get('/computer',  [ProductController::class, 'showComputers']);
 Route::get('/c_component',  [ProductController::class, 'showComputerComponents']);
