@@ -26,6 +26,38 @@ Route::get('/', [HomepageController::class, 'show']);
 Route::get('/products', [ProductController::class, 'index']);
 Route::get('/products/create', [ProductController::class, 'create']);
 Route::post('/products', [ProductController::class, 'save']);
+
+Route::get('/computer',  [ProductController::class, 'showComputers']);
+Route::get('/c_components',  [ProductController::class, 'showComputerComponents']);
+Route::get('/monitor',  [ProductController::class, 'showMonitors']);
+
+Route::get('/notebook',  [ProductController::class, 'showNotebooks']);
+Route::get('/tablet',  [ProductController::class, 'showTablet']);
+Route::get('/accessory',  [ProductController::class, 'showTabletAccessories']);
+
+Route::get('/printer',  [ProductController::class, 'showPrinters']);
+Route::get('/prop',  [ProductController::class, 'showPrinterProps']);
+Route::get('/p_components',  [ProductController::class, 'showPrinterComponents']);
+
+Route::get('/smartphone',  [ProductController::class, 'showSmartphones']);
+Route::get('/landline',  [ProductController::class, 'showLandlinePhones']);
+Route::get('/phone',  [ProductController::class, 'showClassicPhones']);
+
+Route::get('/television',  [ProductController::class, 'showTelevision']);
+Route::get('/tv_accessory',  [ProductController::class, 'showTvAccerrories']);
+Route::get('/photo',  [ProductController::class, 'showPhoto']);
+Route::get('/media',  [ProductController::class, 'showMedia']);
+Route::get('/drone',  [ProductController::class, 'showDrones']);
+
+Route::get('/appliance',  [ProductController::class, 'showKitchenAppliances']);
+Route::get('/smarthome_device',  [ProductController::class, 'showSmarthomeDevices']);
+Route::get('/k_accessories',  [ProductController::class, 'showHomeAccessories']);
+
+Route::get('/faq' function() {
+    return view('users.faw');
+})
+
+
 Route::get('/products/{product}/edit', [ProductController::class, 'edit']);
 Route::get('/products/{product}', [ProductController::class, 'show']);
 Route::put('/products/{product}', [ProductController::class, 'update']);
