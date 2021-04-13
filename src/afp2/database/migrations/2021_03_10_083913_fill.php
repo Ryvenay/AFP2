@@ -298,6 +298,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'V27I Monitor', 
+            'brand' => 'HP', 
+            'in_stock' => 22,
+            'img' => 'img/product/hp_monitor.jpg',
+            'description' => '', 
+            's_description' => '', 
+            'price' => 65750, 
+            'category' => 'Monitor',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
