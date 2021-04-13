@@ -346,6 +346,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'X54020UB-GQ750T Notebook', 
+            'brand' => 'Asus', 
+            'in_stock' => 10,
+            'img' => 'img/product/asus_notebook.jpg',
+            'description' => '', 
+            's_description' => '', 
+            'price' => 119000, 
+            'category' => 'Notebook',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
