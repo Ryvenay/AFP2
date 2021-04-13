@@ -327,7 +327,7 @@ class Fill extends Migration
             'brand' => 'Apple', 
             'in_stock' => 56,
             'img' => 'img/product/apple_headset.jpg',
-            'description' => '', 
+            'description' => 'Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear. Which makes them more comfortable for more people than any other earbud-style headphones.The speakers inside the EarPods have been engineered to maximize sound output and minimize sound loss, which means you get high-quality audio.The EarPods also include a built-in remote that lets you adjust the volume, control the playback of music and video, and answer or end calls with a pinch of the cord.', 
             's_description' => 'Designed by Apple. Deeper, richer bass tones. Greater protection from sweat and water', 
             'price' => 8000, 
             'category' => 'Audio Cables',
