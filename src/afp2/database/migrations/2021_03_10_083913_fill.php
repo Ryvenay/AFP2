@@ -339,7 +339,7 @@ class Fill extends Migration
             'brand' => 'HP', 
             'in_stock' => 10,
             'img' => 'img/product/hp_deskjet.jpg',
-            'description' => '', 
+            'description' => 'Print speed ISO: Up to 8 ppm black, up to 5 color. Built-in WiFi, mobile printing. Instant Ink ready. High yield ink available.', 
             's_description' => 'All in one. Print, scan, copy. 1 year guarantee in case of any problems.', 
             'price' => 129000, 
             'category' => 'Printer',
