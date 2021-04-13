@@ -303,7 +303,7 @@ class Fill extends Migration
             'brand' => 'HP', 
             'in_stock' => 22,
             'img' => 'img/product/hp_monitor.jpg',
-            'description' => '', 
+            'description' => 'Response Time: 5 ms. Brightness of the screen: 250 cd/m². Ratio of image format: 16: 9. Viewing angle horizontal: 178 °. Vertical Viewing Angle: 178 °. Hub with built-in USB port.Version of the USB hub: USB 3.0 (3.1 Gen 1). VESA mounting.', 
             's_description' => 'HP Elite display V27I. Screen size: 60.5 cm (23.8).', 
             'price' => 65750, 
             'category' => 'Monitor',
