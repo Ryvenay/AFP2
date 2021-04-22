@@ -370,6 +370,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'Pro Slate Tablet', 
+            'brand' => 'HP', 
+            'in_stock' => 30,
+            'img' => '',
+            'description' => '', 
+            's_description' => '', 
+            'price' => 148300, 
+            'category' => 'Tablet',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
