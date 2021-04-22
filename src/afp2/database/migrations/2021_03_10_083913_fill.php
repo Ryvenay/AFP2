@@ -347,7 +347,7 @@ class Fill extends Migration
             'created_at' => now(),
         ],
         [
-            'name' => 'KX-TS 880FXB Telephone', 
+            'name' => 'KX-TS 880FXB NoteBook', 
             'brand' => 'Asus', 
             'in_stock' => 19,
             'img' => 'img/product/asus_notebook.jpg',
