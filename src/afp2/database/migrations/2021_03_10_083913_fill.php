@@ -358,6 +358,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'ZenBook Pro Laptop', 
+            'brand' => 'Asus', 
+            'in_stock' => 72,
+            'img' => 'img/product/asus_laptop.jpg',
+            'description' => '', 
+            's_description' => '', 
+            'price' => 170000, 
+            'category' => 'Computer',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
