@@ -387,7 +387,7 @@ class Fill extends Migration
             'brand' => 'Huawei', 
             'in_stock' => 59,
             'img' => 'img/product/huawei_phone.jpg',
-            'description' => '', 
+            'description' => 'The Huawei P40 Lite solves this issue with its 8MP Ultra-Wide Angle Lens, which allows you to capture a photo of an entire soccer field by simply pointing and clicking. Processor: HiSilicon Kirin 810. RAM: 8 GB. Storage: 128 GB. Display: 6.4 inches.', 
             's_description' => 'With the 2MP Macro Lens, you can take photos of objects from 4cm away.', 
             'price' => 66500, 
             'category' => 'Smart Phone',
