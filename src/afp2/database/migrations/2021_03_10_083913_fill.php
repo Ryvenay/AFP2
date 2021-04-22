@@ -376,7 +376,7 @@ class Fill extends Migration
             'in_stock' => 30,
             'img' => 'img/product/hp_tablet.jpg',
             'description' => '', 
-            's_description' => '', 
+            's_description' => 'HP has launched Pro Slate high-definition Android tablet for enterprise use.', 
             'price' => 148300, 
             'category' => 'Tablet',
             'updated_at' => now(),
