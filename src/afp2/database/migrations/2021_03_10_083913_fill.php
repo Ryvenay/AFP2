@@ -388,7 +388,7 @@ class Fill extends Migration
             'in_stock' => 59,
             'img' => 'img/product/huawei_phone.jpg',
             'description' => '', 
-            's_description' => '', 
+            's_description' => 'With the 2MP Macro Lens, you can take photos of objects from 4cm away.', 
             'price' => 66500, 
             'category' => 'Smart Phone',
             'updated_at' => now(),
