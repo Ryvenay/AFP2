@@ -394,6 +394,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'XPS 13', 
+            'brand' => 'Dell', 
+            'in_stock' => 29,
+            'img' => 'img/product/dell_notebook.jpg',
+            'description' => '', 
+            's_description' => '', 
+            'price' => 160000, 
+            'category' => 'Notebook',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
