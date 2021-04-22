@@ -364,7 +364,7 @@ class Fill extends Migration
             'in_stock' => 72,
             'img' => 'img/product/asus_laptop.jpg',
             'description' => '', 
-            's_description' => '', 
+            's_description' => 'Creativity. Style. Innovation. These are the qualities that define the elegant new ZenBook Pro.', 
             'price' => 170000, 
             'category' => 'Computer',
             'updated_at' => now(),
