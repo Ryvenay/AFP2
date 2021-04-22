@@ -382,6 +382,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'P40 Lite Smart Phone', 
+            'brand' => 'Huawei', 
+            'in_stock' => 59,
+            'img' => 'img/product/huawei_phone.jpg',
+            'description' => '', 
+            's_description' => '', 
+            'price' => 66500, 
+            'category' => 'Smart Phone',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
