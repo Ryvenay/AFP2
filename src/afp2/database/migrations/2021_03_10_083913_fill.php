@@ -363,7 +363,7 @@ class Fill extends Migration
             'brand' => 'Asus', 
             'in_stock' => 72,
             'img' => 'img/product/asus_laptop.jpg',
-            'description' => '', 
+            'description' => 'It’s one of the world’s smallest 14-inch laptops, and features the breathtaking frameless NanoEdge display and the exclusive NumberPad to give you the freedom to discover your creative power.', 
             's_description' => 'Creativity. Style. Innovation. These are the qualities that define the elegant new ZenBook Pro.', 
             'price' => 170000, 
             'category' => 'Computer',
