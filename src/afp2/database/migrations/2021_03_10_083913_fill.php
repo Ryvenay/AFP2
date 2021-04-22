@@ -375,7 +375,7 @@ class Fill extends Migration
             'brand' => 'HP', 
             'in_stock' => 30,
             'img' => 'img/product/hp_tablet.jpg',
-            'description' => '', 
+            'description' => 'The tablets, with 8-inch and 12-inch screens respectively, have Qualcomm Snapdragon 800 series processors. The tablets come with unique pens, enabling users to write on screen as well as on paper. HP has used the toughest corning gorilla glass on these slate tabs. The Pro Slate tablet is 8 mm thin and has a powerful battery life designed to meet enterprise-level challenges. The cost of the tablets ranges between $449 to $569 for Slate 8 & 12 respectively.', 
             's_description' => 'HP has launched Pro Slate high-definition Android tablet for enterprise use.', 
             'price' => 148300, 
             'category' => 'Tablet',
