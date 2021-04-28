@@ -406,6 +406,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => ' 55UN71003LB Smart LED', 
+            'brand' => 'LG', 
+            'in_stock' => 78,
+            'img' => 'img/product/lg_tv.jpg',
+            'description' => '', 
+            's_description' => '', 
+            'price' => 134500, 
+            'category' => 'Television',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
