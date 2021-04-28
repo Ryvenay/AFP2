@@ -411,7 +411,7 @@ class Fill extends Migration
             'brand' => 'LG', 
             'in_stock' => 78,
             'img' => 'img/product/lg_tv.jpg',
-            'description' => '', 
+            'description' => 'The LG 55UN71003LB 2020 is an upper-mid range 4k LED TV in LGs 2020 NanoCell series. It replaces the LG SM9000, and it sits above the LG NANO85/NANO86 and below LGs 8k Series. The LG NANO91 in Europe appears to be the same TV but with a center-mounted stand. Its main competitors are the Sony X800H, Samsung Q70/Q70T QLED, and the Hisense H8G.', 
             's_description' => 'LG releases a lot of TVs every year, probably more than any other manufacturer.', 
             'price' => 134500, 
             'category' => 'Television',
