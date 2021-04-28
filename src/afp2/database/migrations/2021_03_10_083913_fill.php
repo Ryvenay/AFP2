@@ -412,7 +412,7 @@ class Fill extends Migration
             'in_stock' => 78,
             'img' => 'img/product/lg_tv.jpg',
             'description' => '', 
-            's_description' => '', 
+            's_description' => 'LG releases a lot of TVs every year, probably more than any other manufacturer.', 
             'price' => 134500, 
             'category' => 'Television',
             'updated_at' => now(),
