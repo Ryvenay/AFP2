@@ -418,6 +418,18 @@ class Fill extends Migration
             'updated_at' => now(),
             'created_at' => now(),
         ],
+        [
+            'name' => 'VIERA TX-40ES403E', 
+            'brand' => 'Panasonic', 
+            'in_stock' => 80,
+            'img' => 'img/product/panasonic_tv.jpg',
+            'description' => '4K Colour Engine. Wide Viewing Angle. Dts Studio Sound. Built-in Google Assistant (Voice Control). Works with Alexa (~Apr onwards). Internal Memory. Android OS ver 10.', 
+            's_description' => 'Works with Alexa (~Apr onwards). Unlimited Contents with Various OTT Apps.', 
+            'price' => 120900, 
+            'category' => 'Television',
+            'updated_at' => now(),
+            'created_at' => now(),
+        ],
         ]);
     }
 
