@@ -9,6 +9,14 @@ class Package extends Model
 {
     use HasFactory;
 
+
+    protected $fillable = [
+        "product_id",
+        "order_id",
+        "amount"
+
+    ];
+
     public function OrderId()
     {
         return $this->hasOne(Order::class,'id','order_id');
