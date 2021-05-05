@@ -59,6 +59,12 @@
         </tr>
     </tfoot>
     </table>
+    <div>
+        <form method="post">
+            @csrf
+            <button type="submit" class="btn btn-primary" value="order">Order</button>
+        </form>
+    </div>
 </div>
 
 @endauth
