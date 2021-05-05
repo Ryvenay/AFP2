@@ -54,4 +54,10 @@ class OrderController extends Controller
     private function getOrderByUser(User $user) {
         return Order::where('user_id', $user->id)->get();
     }
+
+    private function getOrders() {
+        return Order::all();
+    }
+
+    
 }
