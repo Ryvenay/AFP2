@@ -19,7 +19,6 @@ class CreateOrdersTable extends Migration
             $table->unsignedBigInteger('billing_address');
             $table->unsignedBigInteger('shipping_address');
             $table->tinyinteger('status');
-            $table->timestamp('order_time');
             $table->timestamp('updated_at')->nullable();
             $table->timestamp('created_at')->nullable();
 
