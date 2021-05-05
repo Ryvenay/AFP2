@@ -5,6 +5,8 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\OrderController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -27,7 +29,7 @@ Route::get('/products', [ProductController::class, 'index']);
 Route::get('/addProduct', [ProductController::class, 'create']);
 Route::post('/products', [ProductController::class, 'save']);
 
-//
+//---------------------------------------------------------------------------
 
 Route::get('/computer',  [ProductController::class, 'showComputers']);
 Route::get('/c_component',  [ProductController::class, 'showComputerComponents']);
@@ -55,6 +57,8 @@ Route::get('/appliance',  [ProductController::class, 'showKitchenAppliances']);
 Route::get('/smarthome_device',  [ProductController::class, 'showSmarthomeDevices']);
 Route::get('/k_accessory',  [ProductController::class, 'showHomeAccessories']);
 
+//--------------------------------------------------------------------------------
+
 Route::get('/faq', function() {
     return view('users.faq', [ProductController::class, 'showHomeAccessories']);
 });
@@ -79,7 +83,15 @@ Route::post('/', [UserController::class, 'authenticate']);
 Route::get('/logout', [UserController::class, 'logout']);
 Route::get('/profile', [UserController::class, 'profile']);
 
+
+
 Route::get('/cart', [CartController::class, 'index'])->middleware('auth');
+
+
+Route::post('/cart', [OrderController::class, 'make']); //change later to /orderReview
+
+
+
 
 
 Route::get('/forgotpsw', function(){
