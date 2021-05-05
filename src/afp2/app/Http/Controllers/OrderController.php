@@ -43,7 +43,15 @@ class OrderController extends Controller
         return redirect('/');
     }
 
-    private function getOrderById() {
+    private function getOrderById($id) {
+        return Order::where('id', $id)->first();
+    }
 
+    private function getOrderByUser(int $user) {
+        return Order::where('user_id', $id)->get();
+    }
+
+    private function getOrderByUser(User $user) {
+        return Order::where('user_id', $user->id)->get();
     }
 }
