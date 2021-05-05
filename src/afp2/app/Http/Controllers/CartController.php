@@ -30,7 +30,7 @@ class CartController extends Controller
         return back()->with('status', 'Added to cart!');
     }
 
-    public function getCartItems(){
+    public static function getCartItems(){
         return Cart::where('user_id', '=', Auth::user()->id)->get();  
     }
 
