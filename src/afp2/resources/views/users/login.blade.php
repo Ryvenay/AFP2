@@ -1,7 +1,14 @@
 @extends('layout')
 
 @section('content')
+
+
 <div class="login_background">
+@if ($alert == 1)
+<div class="alert alert-primary" role="alert">
+ Please <b>log in</b> first to access all funtion of the website!
+</div>
+@endif
 <div class="login_container_back"  id="login_">
     <div class="container">
         <div class="row">

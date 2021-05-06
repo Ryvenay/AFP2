@@ -30,8 +30,14 @@ class UserController extends Controller
         return view('users.register');
     }
 
-    public function login() {
-        return view('users.login');
+    public function login(Request $request) {
+        $alert = 0;
+        if($request->has('P')) {
+            $alert = 1;
+        }
+        return view('users.login', [
+            "alert" => $alert
+        ]);
     }
 
     public function profile() {
