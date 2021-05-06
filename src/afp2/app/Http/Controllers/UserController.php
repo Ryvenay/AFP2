@@ -47,8 +47,9 @@ class UserController extends Controller
     }
 
     public function listUsers(){
+
         return view('users.userList',[
-            "user" => User::all()
+            "users" => User::all()
         ]);
     }
 
