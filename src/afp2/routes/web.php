@@ -86,9 +86,9 @@ Route::get('/profile', [UserController::class, 'profile']);
 
 
 Route::get('/cart', [CartController::class, 'index'])->middleware('auth');
-
-
 Route::post('/cart', [OrderController::class, 'make']); //change later to /orderReview
+
+Route::get('/orders', [OrderController::class, 'index']);
 
 
 
