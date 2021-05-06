@@ -138,10 +138,10 @@ class ProductController extends Controller
     }
 
     public static function showTabletAccessories() {
-        $products = Product::where('category', 'Television accessory')->get();
+        $products = Product::where('category', 'Tablet accessory')->get();
 
         return view('products.list', [
-            'title' => 'Notebook, tablet accessories',
+            'title' => 'TV accessories',
             'products' => $products
         ]);
     }
@@ -166,7 +166,7 @@ class ProductController extends Controller
 
 
     public static function showPrinterComponents() {
-        $products = Product::where('category', 'Computer component')->get();
+        $products = Product::where('category', 'Printer component')->get();
 
         return view('products.list', [
             'title' => 'Printer components',
@@ -185,7 +185,7 @@ class ProductController extends Controller
 
 
     public static function showLandlinePhones() {
-        $products = Product::where('category', 'landline')->get();
+        $products = Product::where('category', 'Landline')->get();
 
         return view('products.list', [
             'title' => 'Landline phones',
@@ -239,7 +239,7 @@ class ProductController extends Controller
     }
 
     public static function showDrones() {
-        $products = Product::where('category', 'drone')->get();
+        $products = Product::where('category', 'Drone')->get();
 
         return view('products.list', [
             'title' => 'Drones',
@@ -257,7 +257,7 @@ class ProductController extends Controller
     }
 
     public static function showSmarthomeDevices() {
-        $products = Product::where('category', 'smarthomedevice')->get();
+        $products = Product::where('category', 'Smarthome device')->get();
 
         return view('products.list', [
             'title' => 'Smart home devices',
@@ -266,7 +266,7 @@ class ProductController extends Controller
     }
 
     public static function showHomeAccessories() {
-        $products = Product::where('category', 'homeaccessory')->get();
+        $products = Product::where('category', 'Home accessory')->get();
 
         return view('products.list', [
             'title' => 'Home accessories',

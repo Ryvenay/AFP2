@@ -59,5 +59,4 @@ class OrderController extends Controller
         return Order::all();
     }
 
-    
 }
