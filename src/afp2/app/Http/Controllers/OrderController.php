@@ -47,7 +47,15 @@ class OrderController extends Controller
         return Order::where('id', $id)->first();
     }
 
-    private function getOrderByUser(int $user) {
+    public function index() {
+        $orders = $this -> getOrders();
+
+        return view('orders.orders', [
+            'orders' => $orders
+        ]);
+    }
+
+    private function getOrderByUserId(int $user) {
         return Order::where('user_id', $id)->get();
     }
 
