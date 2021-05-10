@@ -25,7 +25,7 @@ Testing will be executed by:
 
 	-Csanádi Balázs Tóbiás: responsible for test documentations
 	-Fügedi Csaba: Test manager, responsible for DB testing
-	-Pap Ágnes: responsible for UI/UX testing and git testing
+	-Papp Ágnes: responsible for UI/UX testing and git testing
 	
 # Test Methodology
 
