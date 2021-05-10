@@ -20,3 +20,4 @@
 | Order Test | Fügedi Csaba | 17:25, 07. May 2021 | Yes | Found some problem but, corrected |
 | Order List Test | Fügedi Csaba | 17:58, 07. May 2021 | Yes | Corrected Listing errors, now working properly |
 | Product page Test | Fügedi Csaba | 18:28, 07. May 2021 | Yes | Everythings fine here. |
+| Add Cart page Test | Fügedi Csaba | 18:38, 07. May 2021 | Yes | No errors found here. |
