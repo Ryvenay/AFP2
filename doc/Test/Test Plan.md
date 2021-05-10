@@ -26,3 +26,26 @@ Testing will be executed by:
 	-Csanádi Balázs Tóbiás: responsible for test documentations
 	-Fügedi Csaba: Test manager, responsible for DB testing
 	-Pap Ágnes: responsible for UI/UX testing and git testing
+	
+# Test Methodology
+
+## Test methods  
+  
+* Migration Import
+* Migration Reach
+* Logout Reach
+* Contorollers Test
+* Carousel Test
+* Category tree Test
+* Login page Test
+* Order page Test
+* Add Product page Test
+* Login Test
+* Order Test
+* Order List Test
+* Product page Test
+* Add Cart page Test
+* Forgot password Test
+* Main Page Test
+* Register Page Test
+* Registration Test
