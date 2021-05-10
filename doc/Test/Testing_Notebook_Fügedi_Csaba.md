@@ -10,3 +10,4 @@
 | Migration Import| Fügedi Csaba | 15:25, 07. May 2021 | Yes | Everything fits into the plan |
 | Migration Reach| Fügedi Csaba | 15:28, 07. May 2021 | Yes | Everything is Fine |
 | Logout Reach | Fügedi Csaba | 15:30, 07. May 2021 | Yes | Found Error but, afther than Repaired |
+| Controllers Test | Fügedi Csaba | 15:47, 07. May 2021 | Yes | Links tested |
