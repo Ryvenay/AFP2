@@ -117,3 +117,14 @@ The following documents are needed to be delivered during test lifecycle:
 * Defect Report/Bug Report: The purpose of using Defect report template or Bug report template is to convey the detailed information about the bug to the developers. It allows developers to replicate the bug easily.
 
 * Test summary report: It contains the summary of test activities and final test results.
+
+## Resource and Enviroment Needs
+
+### Testing Tools
+
+The following tool will be used for testing: (all included in “tests” folder)
+
+* Functional testing: Browser
+* Interface testing: Browser
+* Database testing: various PHP scripts, Phpmyadmin
+* Compatibility testing: Browser
