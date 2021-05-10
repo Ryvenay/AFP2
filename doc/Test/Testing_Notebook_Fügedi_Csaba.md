@@ -25,3 +25,4 @@
 | Forgot password Test | Fügedi Csaba | 18:41, 07. May 2021 | Yes | Got Rick-rolled |
 | Main Page Test | Fügedi Csaba | 18:51, 07. May 2021 | Yes | All point is good on this page. |
 | Register Page Test | Fügedi Csaba | 18:55, 07. May 2021 | Yes | The Register page loaded perfectly. |
+| Registration Test | Fügedi Csaba | 19:20, 07. May 2021 | Yes | New user made and everything is working well. |
