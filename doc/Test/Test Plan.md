@@ -49,3 +49,7 @@ Testing will be executed by:
 * Main Page Test
 * Register Page Test
 * Registration Test
+
+## Overview
+
+As our development process will follow the scrum method, therefore we adjusted our testing cycles to this. Every week is a new sprint, and we test every module right after implementation. This means we execute tests and write testing documents and reports near the end of the current sprint.
