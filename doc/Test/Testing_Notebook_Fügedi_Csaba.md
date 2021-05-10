@@ -8,3 +8,4 @@
 | Modul | Name | Time | Is it working correctly? | Side Note |
 |-------|------|------|--------------------------|-----------|
 | Migration Import| Fügedi Csaba | 15:25, 07. May 2021 | Yes | Everything fits into the plan |
+| Migration Reach| Fügedi Csaba | 15:28, 07. May 2021 | Yes | Everything is Fine |
