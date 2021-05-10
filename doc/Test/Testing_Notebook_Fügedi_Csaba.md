@@ -24,3 +24,4 @@
 | Forgot password Test | Fügedi Csaba | 18:40, 07. May 2021 | No | Routing error here, but repaired.|
 | Forgot password Test | Fügedi Csaba | 18:41, 07. May 2021 | Yes | Got Rick-rolled |
 | Main Page Test | Fügedi Csaba | 18:51, 07. May 2021 | Yes | All point is good on this page. |
+| Register Page Test | Fügedi Csaba | 18:55, 07. May 2021 | Yes | The Register page loaded perfectly. |
