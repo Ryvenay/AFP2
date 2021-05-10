@@ -18,3 +18,4 @@
 | Add Product page | Fügedi Csaba | 16:30, 07. May 2021 | Yes | Items succesfully works |
 | Login Test | Fügedi Csaba | 16:49, 07. May 2021 | Yes | The login works with old and new users properly |
 | Order Test | Fügedi Csaba | 17:25, 07. May 2021 | Yes | Found some problem but, corrected |
+| Order List Test | Fügedi Csaba | 17:58, 07. May 2021 | Yes | Corrected Listing errors, now working properly |
