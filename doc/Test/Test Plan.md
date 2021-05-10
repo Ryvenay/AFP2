@@ -17,3 +17,12 @@ We must make sure:
 	-Ensure the Application Under Test conforms to functional and non-functional requirements
 	-Ensure the AUT meets the quality specifications defined by the client
 	-Bugs/issues are identified and fixed before go live
+	
+	
+### Roles an Responsibilities
+
+Testing will be executed by:
+
+	-Csanádi Balázs Tóbiás: responsible for test documentations
+	-Fügedi Csaba: Test manager, responsible for DB testing
+	-Pap Ágnes: responsible for UI/UX testing and git testing
