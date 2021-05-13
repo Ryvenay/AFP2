@@ -1,7 +1,7 @@
 <h1 align= "center">💡️ Project test 💡️</h1>
 <hr>
 <h2 align= "center"> Tester: Csanádi Balázs Tóbiás </h2>
-<h3 align= "center"> Date of testing:  </h3>
+<h3 align= "center"> Date of testing: 07. May 2021 </h3>
 <h4 align= "center"> Browser: Brave  </h3>
 <hr>
 
